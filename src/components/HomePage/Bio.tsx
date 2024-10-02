@@ -8,7 +8,7 @@ function Bio() {
       <Row>
         <Col></Col>
         <Col md="auto">
-          <img src={headshot} alt="Headshot" width="300" height="400"></img>
+          <img src={headshot} alt="Headshot" width="150" height="200"></img>
         </Col>
         <Col></Col>
       </Row>

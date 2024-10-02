@@ -1,11 +1,12 @@
-import { useNavigate } from 'react-router-dom';
+import { useNavigate } from "react-router-dom";
+import WIP from "../../components/WIP";
 
 function InternetOfThingsOverviewPage() {
   const navigate = useNavigate();
 
   return (
     <div>
-        <p>IoT Overview</p>
+      <WIP />
     </div>
   );
 }

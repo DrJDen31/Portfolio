@@ -1,11 +1,12 @@
-import { useNavigate } from 'react-router-dom';
+import { useNavigate } from "react-router-dom";
+import WIP from "../../components/WIP";
 
 function MyFellowAmericansPage() {
   const navigate = useNavigate();
 
   return (
     <div>
-        <p>MyFellowAmericans</p>
+      <WIP />
     </div>
   );
 }

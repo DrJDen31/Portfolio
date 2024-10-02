@@ -1,11 +1,12 @@
-import { useNavigate } from 'react-router-dom';
+import { useNavigate } from "react-router-dom";
+import WIP from "../../components/WIP";
 
 function IEDHandyHelperPage() {
   const navigate = useNavigate();
 
   return (
     <div>
-        <p>IED Handy Helper</p>
+      <WIP />
     </div>
   );
 }

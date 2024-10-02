@@ -68,7 +68,7 @@ function Home() {
         I am currently looking for a full time job for May 2025!
       </p>
       <p className="fs-5 fw-bold">Courses and Skills:</p>
-      <Accordion alwaysOpen>
+      <Accordion defaultActiveKey={["0", "1"]} alwaysOpen>
         <Accordion.Item eventKey="0">
           <Accordion.Header>Courses</Accordion.Header>
           <Accordion.Body>
@@ -92,8 +92,8 @@ function Home() {
               <Card.Body>
                 <Card.Title>Moog</Card.Title>
                 <Card.Text>
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                  Fall 2023 Engineering Internship in Buffalo, NY as a part of
+                  the ZQuip team for Moog Construction
                 </Card.Text>
                 <Button
                   variant="primary"
@@ -111,8 +111,7 @@ function Home() {
               <Card.Body>
                 <Card.Title>Troy Tutors</Card.Title>
                 <Card.Text>
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                  Part time tutor through Troy Tutors in CS and CSE courses
                 </Card.Text>
                 <Button
                   variant="primary"
@@ -132,10 +131,9 @@ function Home() {
             <Card className="mt-2" style={{ width: "18rem" }}>
               <Card.Img variant="top" src={robotcar} />
               <Card.Body>
-                <Card.Title>Embedded Controls: Car Maze</Card.Title>
+                <Card.Title>Embedded Control: Car Maze</Card.Title>
                 <Card.Text>
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                  Final project (partner) for Embedded Control
                 </Card.Text>
                 <Button
                   variant="primary"
@@ -155,8 +153,7 @@ function Home() {
               <Card.Body>
                 <Card.Title>Internet of Things: Verified Clock In</Card.Title>
                 <Card.Text>
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                  Final project (solo) for Internetworking of Things
                 </Card.Text>
                 <Button
                   variant="primary"
@@ -176,8 +173,7 @@ function Home() {
               <Card.Body>
                 <Card.Title>Module Zero</Card.Title>
                 <Card.Text>
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                  Personal project designing an FPS in Unreal Engine 5
                 </Card.Text>
                 <Button
                   variant="primary"

@@ -1,11 +1,12 @@
-import { useNavigate } from 'react-router-dom';
+import { useNavigate } from "react-router-dom";
+import WIP from "../../components/WIP";
 
 function SmartCalPage() {
   const navigate = useNavigate();
 
   return (
     <div>
-        <p>SmartCal</p>
+      <WIP />
     </div>
   );
 }

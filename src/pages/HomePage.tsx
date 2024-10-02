@@ -5,6 +5,7 @@ import {
   Carousel,
   Col,
   Container,
+  Image,
   Row,
   Tab,
   Tabs,
@@ -15,16 +16,24 @@ import Courses from "../components/HomePage/Courses";
 import Skills from "../components/HomePage/Skills";
 import Bio from "../components/HomePage/Bio";
 
-import ex from "../content/images/react.png";
 import moogpic from "../content/images/IMG_7301 (1).jpg";
 import troytutors from "../content/images/tt.png";
 import robotcar from "../content/images/robotcar.png";
 import iot from "../content/images/IoT.png";
 import module from "../content/images/Module.png";
+import CardImage from "../components/CardImage";
 
 function Home() {
   const navigate = useNavigate();
-
+  const styles = {
+    cardImage: {
+      objectFit: "cover",
+      height: "200px",
+      width: "282px",
+      borderRadius: "20px",
+      margin: "2px",
+    },
+  };
   //Links:
   //Github
   //LinkedIn
@@ -88,7 +97,7 @@ function Home() {
           <Col></Col>
           <Col md="auto">
             <Card className="mt-2" style={{ width: "18rem" }}>
-              <Card.Img variant="top" src={moogpic} />
+              <CardImage source={moogpic} />
               <Card.Body>
                 <Card.Title>Moog</Card.Title>
                 <Card.Text>
@@ -107,7 +116,7 @@ function Home() {
           <Col xs></Col>
           <Col md="auto">
             <Card className="mt-2" style={{ width: "18rem" }}>
-              <Card.Img variant="top" src={troytutors} />
+              <CardImage source={troytutors} />
               <Card.Body>
                 <Card.Title>Troy Tutors</Card.Title>
                 <Card.Text>
@@ -129,7 +138,7 @@ function Home() {
           <Col></Col>
           <Col md="auto">
             <Card className="mt-2" style={{ width: "18rem" }}>
-              <Card.Img variant="top" src={robotcar} />
+              <CardImage source={robotcar} />
               <Card.Body>
                 <Card.Title>Embedded Control: Car Maze</Card.Title>
                 <Card.Text>
@@ -149,7 +158,7 @@ function Home() {
           <Col xs></Col>
           <Col md="auto">
             <Card className="mt-2" style={{ width: "18rem" }}>
-              <Card.Img variant="top" src={iot} />
+              <CardImage source={iot} />
               <Card.Body>
                 <Card.Title>Internet of Things: Verified Clock In</Card.Title>
                 <Card.Text>
@@ -169,7 +178,7 @@ function Home() {
           <Col xs></Col>
           <Col md="auto">
             <Card className="mt-2" style={{ width: "18rem" }}>
-              <Card.Img variant="top" src={module} />
+              <CardImage source={module} />
               <Card.Body>
                 <Card.Title>Module Zero</Card.Title>
                 <Card.Text>

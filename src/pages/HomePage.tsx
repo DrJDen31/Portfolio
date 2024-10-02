@@ -17,6 +17,10 @@ import Bio from "../components/HomePage/Bio";
 
 import ex from "../content/images/react.png";
 import moogpic from "../content/images/IMG_7301 (1).jpg";
+import troytutors from "../content/images/tt.png";
+import robotcar from "../content/images/robotcar.png";
+import iot from "../content/images/IoT.png";
+import module from "../content/images/Module.png";
 
 function Home() {
   const navigate = useNavigate();
@@ -103,7 +107,7 @@ function Home() {
           <Col xs></Col>
           <Col md="auto">
             <Card className="mt-2" style={{ width: "18rem" }}>
-              <Card.Img variant="top" src={ex} />
+              <Card.Img variant="top" src={troytutors} />
               <Card.Body>
                 <Card.Title>Troy Tutors</Card.Title>
                 <Card.Text>
@@ -126,7 +130,7 @@ function Home() {
           <Col></Col>
           <Col md="auto">
             <Card className="mt-2" style={{ width: "18rem" }}>
-              <Card.Img variant="top" src={ex} />
+              <Card.Img variant="top" src={robotcar} />
               <Card.Body>
                 <Card.Title>Embedded Controls: Car Maze</Card.Title>
                 <Card.Text>
@@ -147,7 +151,7 @@ function Home() {
           <Col xs></Col>
           <Col md="auto">
             <Card className="mt-2" style={{ width: "18rem" }}>
-              <Card.Img variant="top" src={ex} />
+              <Card.Img variant="top" src={iot} />
               <Card.Body>
                 <Card.Title>Internet of Things: Verified Clock In</Card.Title>
                 <Card.Text>
@@ -168,7 +172,7 @@ function Home() {
           <Col xs></Col>
           <Col md="auto">
             <Card className="mt-2" style={{ width: "18rem" }}>
-              <Card.Img variant="top" src={ex} />
+              <Card.Img variant="top" src={module} />
               <Card.Body>
                 <Card.Title>Module Zero</Card.Title>
                 <Card.Text>

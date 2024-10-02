@@ -1,15 +1,4 @@
-import {
-  Accordion,
-  Button,
-  Card,
-  Carousel,
-  Col,
-  Container,
-  Image,
-  Row,
-  Tab,
-  Tabs,
-} from "react-bootstrap";
+import { Accordion, Button, Card, Col, Container, Row } from "react-bootstrap";
 import { useNavigate } from "react-router-dom";
 import LinkGroup from "../components/HomePage/LinkGroup";
 import Courses from "../components/HomePage/Courses";
@@ -64,7 +53,16 @@ function Home() {
   return (
     <Container className="pt-1 pb-4 my-auto">
       <LinkGroup />
-      <p className="pt-2 fs-5">
+      <div style={{ flexDirection: "row", display: "flex", marginTop: "2" }}>
+        <p className="mx-1">
+          Note: This site is a work in progress. My old portfolio through google
+          sites can be found
+        </p>
+        <a href="https://sites.google.com/view/jadentompkins/home?authuser=0">
+          here.
+        </a>
+      </div>
+      <p className="fs-5">
         Hi! My name is Jaden Tompkins and I am a senior at Rensselaer
         Polytechnic Institute in Troy, NY dual majoring in Computer & Systems
         Engineering and Computer Science. I have past intern experience working
@@ -96,7 +94,7 @@ function Home() {
           <h3>Featured Work Experience</h3>
           <Col></Col>
           <Col md="auto">
-            <Card className="mt-2" style={{ width: "18rem" }}>
+            <Card className="mt-2" style={{ width: "18rem", height: "24rem" }}>
               <CardImage source={moogpic} />
               <Card.Body>
                 <Card.Title>Moog</Card.Title>
@@ -115,12 +113,13 @@ function Home() {
           </Col>
           <Col xs></Col>
           <Col md="auto">
-            <Card className="mt-2" style={{ width: "18rem" }}>
+            <Card className="mt-2" style={{ width: "18rem", height: "24rem" }}>
               <CardImage source={troytutors} />
               <Card.Body>
                 <Card.Title>Troy Tutors</Card.Title>
                 <Card.Text>
-                  Part time tutor through Troy Tutors in CS and CSE courses
+                  Part time tutor through Troy Tutors in CS and CSE courses,
+                  such as Data Structures and CANOS
                 </Card.Text>
                 <Button
                   variant="primary"
@@ -137,7 +136,7 @@ function Home() {
           <h3>Featured Project Experience</h3>
           <Col></Col>
           <Col md="auto">
-            <Card className="mt-2" style={{ width: "18rem" }}>
+            <Card className="mt-2" style={{ width: "18rem", height: "24rem" }}>
               <CardImage source={robotcar} />
               <Card.Body>
                 <Card.Title>Embedded Control: Car Maze</Card.Title>
@@ -157,7 +156,7 @@ function Home() {
           </Col>
           <Col xs></Col>
           <Col md="auto">
-            <Card className="mt-2" style={{ width: "18rem" }}>
+            <Card className="mt-2" style={{ width: "18rem", height: "24rem" }}>
               <CardImage source={iot} />
               <Card.Body>
                 <Card.Title>Internet of Things: Verified Clock In</Card.Title>
@@ -177,12 +176,13 @@ function Home() {
           </Col>
           <Col xs></Col>
           <Col md="auto">
-            <Card className="mt-2" style={{ width: "18rem" }}>
+            <Card className="mt-2" style={{ width: "18rem", height: "24rem" }}>
               <CardImage source={module} />
               <Card.Body>
                 <Card.Title>Module Zero</Card.Title>
                 <Card.Text>
-                  Personal project designing an FPS in Unreal Engine 5
+                  Personal project designing an First Person Shooter (FPS) in
+                  Unreal Engine 5
                 </Card.Text>
                 <Button
                   variant="primary"

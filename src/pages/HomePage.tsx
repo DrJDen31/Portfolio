@@ -1,0 +1,197 @@
+import {
+  Accordion,
+  Button,
+  Card,
+  Carousel,
+  Col,
+  Container,
+  Row,
+  Tab,
+  Tabs,
+} from "react-bootstrap";
+import { useNavigate } from "react-router-dom";
+import LinkGroup from "../components/HomePage/LinkGroup";
+import Courses from "../components/HomePage/Courses";
+import Skills from "../components/HomePage/Skills";
+import Bio from "../components/HomePage/Bio";
+
+import ex from "../content/images/react.png";
+import moogpic from "../content/images/IMG_7301 (1).jpg";
+
+function Home() {
+  const navigate = useNavigate();
+
+  //Links:
+  //Github
+  //LinkedIn
+  //Email
+  //Intro Paragraph
+  //
+  //Objective Statement
+  //Accordian:
+  //Courses:
+  //Taken
+  //Prospective
+  //Coterm (?)
+  //Skills:
+  //Programming
+  //Software Applications
+  //Technical
+  //Carousel:
+  //Work Experience
+  //Carousel:
+  //Featured Projects - top couple projects
+  //Bio:
+  //Contact Info:
+  //Email
+  //Phone
+  //Picture
+  //Paragraph
+  //About Me
+  return (
+    <Container className="pt-1 pb-4 my-auto">
+      <LinkGroup />
+      <p className="pt-2 fs-5">
+        Hi! My name is Jaden Tompkins and I am a senior at Rensselaer
+        Polytechnic Institute in Troy, NY dual majoring in Computer & Systems
+        Engineering and Computer Science. I have past intern experience working
+        at Moog Construction, where my main task was to develop a full stack
+        Python app. I have focused on embedded systems and computer hardware
+        design when selecting my courses, and I am minoring in Cognitive Science
+        for Artificial Intelligence.
+      </p>
+      <p className="fs-5 pb-4">
+        I am currently looking for a full time job for May 2025!
+      </p>
+      <p className="fs-5 fw-bold">Courses and Skills:</p>
+      <Accordion alwaysOpen>
+        <Accordion.Item eventKey="0">
+          <Accordion.Header>Courses</Accordion.Header>
+          <Accordion.Body>
+            <Courses />
+          </Accordion.Body>
+        </Accordion.Item>
+        <Accordion.Item eventKey="1">
+          <Accordion.Header>Skills</Accordion.Header>
+          <Accordion.Body>
+            <Skills />
+          </Accordion.Body>
+        </Accordion.Item>
+      </Accordion>
+      <Container className="my-4">
+        <Row>
+          <h3>Featured Work Experience</h3>
+          <Col></Col>
+          <Col md="auto">
+            <Card className="mt-2" style={{ width: "18rem" }}>
+              <Card.Img variant="top" src={moogpic} />
+              <Card.Body>
+                <Card.Title>Moog</Card.Title>
+                <Card.Text>
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </Card.Text>
+                <Button
+                  variant="primary"
+                  onClick={() => navigate("/work-experience/moog")}
+                >
+                  More Information
+                </Button>
+              </Card.Body>
+            </Card>
+          </Col>
+          <Col xs></Col>
+          <Col md="auto">
+            <Card className="mt-2" style={{ width: "18rem" }}>
+              <Card.Img variant="top" src={ex} />
+              <Card.Body>
+                <Card.Title>Troy Tutors</Card.Title>
+                <Card.Text>
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </Card.Text>
+                <Button
+                  variant="primary"
+                  onClick={() => navigate("/work-experience/troy-tutors")}
+                >
+                  More Info
+                </Button>
+              </Card.Body>
+            </Card>
+          </Col>
+          <Col></Col>
+        </Row>
+        <Row className="mt-4">
+          <h3>Featured Project Experience</h3>
+          <Col></Col>
+          <Col md="auto">
+            <Card className="mt-2" style={{ width: "18rem" }}>
+              <Card.Img variant="top" src={ex} />
+              <Card.Body>
+                <Card.Title>Embedded Controls: Car Maze</Card.Title>
+                <Card.Text>
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </Card.Text>
+                <Button
+                  variant="primary"
+                  onClick={() =>
+                    navigate("/embedded-systems/embedded-controls-maze")
+                  }
+                >
+                  More Info
+                </Button>
+              </Card.Body>
+            </Card>
+          </Col>
+          <Col xs></Col>
+          <Col md="auto">
+            <Card className="mt-2" style={{ width: "18rem" }}>
+              <Card.Img variant="top" src={ex} />
+              <Card.Body>
+                <Card.Title>Internet of Things: Verified Clock In</Card.Title>
+                <Card.Text>
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </Card.Text>
+                <Button
+                  variant="primary"
+                  onClick={() =>
+                    navigate("/internet-of-things/verified-clock-in")
+                  }
+                >
+                  More Info
+                </Button>
+              </Card.Body>
+            </Card>
+          </Col>
+          <Col xs></Col>
+          <Col md="auto">
+            <Card className="mt-2" style={{ width: "18rem" }}>
+              <Card.Img variant="top" src={ex} />
+              <Card.Body>
+                <Card.Title>Module Zero</Card.Title>
+                <Card.Text>
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </Card.Text>
+                <Button
+                  variant="primary"
+                  onClick={() => navigate("/unreal-engine/module-zero")}
+                >
+                  More Info
+                </Button>
+              </Card.Body>
+            </Card>
+          </Col>
+          <Col></Col>
+        </Row>
+      </Container>
+      <Container className="py-4">
+        <Bio />
+      </Container>
+    </Container>
+  );
+}
+
+export default Home;

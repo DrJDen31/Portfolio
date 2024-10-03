@@ -56,10 +56,10 @@ function Home() {
       <div style={{ flexDirection: "row", display: "flex", marginTop: "2" }}>
         <p className="mx-1">
           Note: This site is a work in progress. My old portfolio through google
-          sites can be found
+          sites can be found here:
         </p>
         <a href="https://sites.google.com/view/jadentompkins/home?authuser=0">
-          here.
+          Google Sites Portfolio
         </a>
       </div>
       <p className="fs-5">

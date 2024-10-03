@@ -26,7 +26,8 @@ function WIP() {
         <Col md="auto" className="pt-2">
           <Button 
             variant="primary"
-            onClick={() => navigate("/")>
+            onClick={() => navigate("/")}
+          >
             Return Home
           </Button>
         </Col>

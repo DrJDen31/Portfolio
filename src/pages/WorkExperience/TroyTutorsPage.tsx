@@ -30,7 +30,7 @@ function TroyTutorsPage() {
               <ul>
                 <li>Computer Science 1 (Python)</li>
                 <li>
-                  <a href="jadentompkins.com/courses-overview#dataStructures">
+                  <a href="www.jadentompkins.com/courses-overview#dataStructures">
                     Data Structures (C++)
                   </a>
                 </li>

@@ -34,6 +34,9 @@ function CoursesOverview() {
                         <div>
                           <h5>CSCI 1100 - Computer Science I</h5>
                           <p>
+                            <h6 style={{ marginBottom: "0px" }}>
+                              Course Description From RPI's Course Catalog:
+                            </h6>
                             An introduction to computer programming algorithm
                             design and analysis. Additional topics include basic
                             computer organization; internal representation of
@@ -64,7 +67,12 @@ function CoursesOverview() {
                       <Accordion.Body>
                         <div>
                           <h5>Course Title</h5>
-                          <p>Course Description</p>
+                          <p>
+                            <h6 style={{ marginBottom: "0px" }}>
+                              Course Description From RPI's Course Catalog:
+                            </h6>{" "}
+                            Description
+                          </p>
                         </div>
                         <Button
                           variant="primary"
@@ -84,7 +92,12 @@ function CoursesOverview() {
                       <Accordion.Body>
                         <div>
                           <h5>Course Title</h5>
-                          <p>Course Description</p>
+                          <p>
+                            <h6 style={{ marginBottom: "0px" }}>
+                              Course Description From RPI's Course Catalog:
+                            </h6>{" "}
+                            Description
+                          </p>
                         </div>
                       </Accordion.Body>
                     </Accordion.Item>
@@ -95,7 +108,12 @@ function CoursesOverview() {
                       <Accordion.Body>
                         <div>
                           <h5>Course Title</h5>
-                          <p>Course Description</p>
+                          <p>
+                            <h6 style={{ marginBottom: "0px" }}>
+                              Course Description From RPI's Course Catalog:
+                            </h6>{" "}
+                            Description
+                          </p>
                         </div>
                       </Accordion.Body>
                     </Accordion.Item>
@@ -106,7 +124,12 @@ function CoursesOverview() {
                       <Accordion.Body>
                         <div>
                           <h5>Course Title</h5>
-                          <p>Course Description</p>
+                          <p>
+                            <h6 style={{ marginBottom: "0px" }}>
+                              Course Description From RPI's Course Catalog:
+                            </h6>{" "}
+                            Description
+                          </p>
                         </div>
                       </Accordion.Body>
                     </Accordion.Item>
@@ -124,7 +147,12 @@ function CoursesOverview() {
                       <Accordion.Body>
                         <div>
                           <h5>Course Title</h5>
-                          <p>Course Description</p>
+                          <p>
+                            <h6 style={{ marginBottom: "0px" }}>
+                              Course Description From RPI's Course Catalog:
+                            </h6>{" "}
+                            Description
+                          </p>
                         </div>
                         <Button
                           variant="primary"
@@ -144,7 +172,12 @@ function CoursesOverview() {
                       <Accordion.Body>
                         <div>
                           <h5>Course Title</h5>
-                          <p>Course Description</p>
+                          <p>
+                            <h6 style={{ marginBottom: "0px" }}>
+                              Course Description From RPI's Course Catalog:
+                            </h6>{" "}
+                            Description
+                          </p>
                         </div>
                         <Button
                           variant="primary"
@@ -164,7 +197,12 @@ function CoursesOverview() {
                       <Accordion.Body>
                         <div>
                           <h5>Course Title</h5>
-                          <p>Course Description</p>
+                          <p>
+                            <h6 style={{ marginBottom: "0px" }}>
+                              Course Description From RPI's Course Catalog:
+                            </h6>{" "}
+                            Description
+                          </p>
                         </div>
                       </Accordion.Body>
                     </Accordion.Item>
@@ -175,7 +213,12 @@ function CoursesOverview() {
                       <Accordion.Body>
                         <div>
                           <h5>Course Title</h5>
-                          <p>Course Description</p>
+                          <p>
+                            <h6 style={{ marginBottom: "0px" }}>
+                              Course Description From RPI's Course Catalog:
+                            </h6>{" "}
+                            Description
+                          </p>
                         </div>
                       </Accordion.Body>
                     </Accordion.Item>
@@ -198,7 +241,12 @@ function CoursesOverview() {
                       <Accordion.Body>
                         <div>
                           <h5>Course Title</h5>
-                          <p>Course Description</p>
+                          <p>
+                            <h6 style={{ marginBottom: "0px" }}>
+                              Course Description From RPI's Course Catalog:
+                            </h6>{" "}
+                            Description
+                          </p>
                         </div>
                         <Button
                           variant="primary"
@@ -218,7 +266,12 @@ function CoursesOverview() {
                       <Accordion.Body>
                         <div>
                           <h5>Course Title</h5>
-                          <p>Course Description</p>
+                          <p>
+                            <h6 style={{ marginBottom: "0px" }}>
+                              Course Description From RPI's Course Catalog:
+                            </h6>{" "}
+                            Description
+                          </p>
                         </div>
                         <Button
                           variant="primary"
@@ -247,7 +300,12 @@ function CoursesOverview() {
                       <Accordion.Body>
                         <div>
                           <h5>Course Title</h5>
-                          <p>Course Description</p>
+                          <p>
+                            <h6 style={{ marginBottom: "0px" }}>
+                              Course Description From RPI's Course Catalog:
+                            </h6>{" "}
+                            Description
+                          </p>
                         </div>
                       </Accordion.Body>
                     </Accordion.Item>
@@ -258,7 +316,12 @@ function CoursesOverview() {
                       <Accordion.Body>
                         <div>
                           <h5>Course Title</h5>
-                          <p>Course Description</p>
+                          <p>
+                            <h6 style={{ marginBottom: "0px" }}>
+                              Course Description From RPI's Course Catalog:
+                            </h6>{" "}
+                            Description
+                          </p>
                         </div>
                       </Accordion.Body>
                     </Accordion.Item>
@@ -269,7 +332,12 @@ function CoursesOverview() {
                       <Accordion.Body>
                         <div>
                           <h5>Course Title</h5>
-                          <p>Course Description</p>
+                          <p>
+                            <h6 style={{ marginBottom: "0px" }}>
+                              Course Description From RPI's Course Catalog:
+                            </h6>{" "}
+                            Description
+                          </p>
                         </div>
                         <Button
                           variant="primary"
@@ -294,7 +362,12 @@ function CoursesOverview() {
                       <Accordion.Body>
                         <div>
                           <h5>Course Title</h5>
-                          <p>Course Description</p>
+                          <p>
+                            <h6 style={{ marginBottom: "0px" }}>
+                              Course Description From RPI's Course Catalog:
+                            </h6>{" "}
+                            Description
+                          </p>
                         </div>
                       </Accordion.Body>
                     </Accordion.Item>
@@ -305,7 +378,12 @@ function CoursesOverview() {
                       <Accordion.Body>
                         <div>
                           <h5>Course Title</h5>
-                          <p>Course Description</p>
+                          <p>
+                            <h6 style={{ marginBottom: "0px" }}>
+                              Course Description From RPI's Course Catalog:
+                            </h6>{" "}
+                            Description
+                          </p>
                         </div>
                         <Button
                           variant="primary"
@@ -334,7 +412,12 @@ function CoursesOverview() {
                       <Accordion.Body>
                         <div>
                           <h5>Course Title</h5>
-                          <p>Course Description</p>
+                          <p>
+                            <h6 style={{ marginBottom: "0px" }}>
+                              Course Description From RPI's Course Catalog:
+                            </h6>{" "}
+                            Description
+                          </p>
                         </div>
                       </Accordion.Body>
                     </Accordion.Item>
@@ -345,7 +428,12 @@ function CoursesOverview() {
                       <Accordion.Body>
                         <div>
                           <h5>Course Title</h5>
-                          <p>Course Description</p>
+                          <p>
+                            <h6 style={{ marginBottom: "0px" }}>
+                              Course Description From RPI's Course Catalog:
+                            </h6>{" "}
+                            Description
+                          </p>
                         </div>
                       </Accordion.Body>
                     </Accordion.Item>
@@ -369,7 +457,12 @@ function CoursesOverview() {
                       <Accordion.Body>
                         <div>
                           <h5>Course Title</h5>
-                          <p>Course Description</p>
+                          <p>
+                            <h6 style={{ marginBottom: "0px" }}>
+                              Course Description From RPI's Course Catalog:
+                            </h6>{" "}
+                            Description
+                          </p>
                         </div>
                         <Button
                           variant="primary"
@@ -389,7 +482,12 @@ function CoursesOverview() {
                       <Accordion.Body>
                         <div>
                           <h5>Course Title</h5>
-                          <p>Course Description</p>
+                          <p>
+                            <h6 style={{ marginBottom: "0px" }}>
+                              Course Description From RPI's Course Catalog:
+                            </h6>{" "}
+                            Description
+                          </p>
                         </div>
                         <Button
                           variant="primary"
@@ -409,7 +507,12 @@ function CoursesOverview() {
                       <Accordion.Body>
                         <div>
                           <h5>Course Title</h5>
-                          <p>Course Description</p>
+                          <p>
+                            <h6 style={{ marginBottom: "0px" }}>
+                              Course Description From RPI's Course Catalog:
+                            </h6>{" "}
+                            Description
+                          </p>
                         </div>
                         <Button
                           variant="primary"
@@ -429,7 +532,12 @@ function CoursesOverview() {
                       <Accordion.Body>
                         <div>
                           <h5>Course Title</h5>
-                          <p>Course Description</p>
+                          <p>
+                            <h6 style={{ marginBottom: "0px" }}>
+                              Course Description From RPI's Course Catalog:
+                            </h6>{" "}
+                            Description
+                          </p>
                         </div>
                       </Accordion.Body>
                     </Accordion.Item>
@@ -440,7 +548,12 @@ function CoursesOverview() {
                       <Accordion.Body>
                         <div>
                           <h5>Course Title</h5>
-                          <p>Course Description</p>
+                          <p>
+                            <h6 style={{ marginBottom: "0px" }}>
+                              Course Description From RPI's Course Catalog:
+                            </h6>{" "}
+                            Description
+                          </p>
                         </div>
                         <Button
                           variant="primary"
@@ -467,7 +580,12 @@ function CoursesOverview() {
                       <Accordion.Body>
                         <div>
                           <h5>Course Title</h5>
-                          <p>Course Description</p>
+                          <p>
+                            <h6 style={{ marginBottom: "0px" }}>
+                              Course Description From RPI's Course Catalog:
+                            </h6>{" "}
+                            Description
+                          </p>
                         </div>
                         <Button
                           variant="primary"
@@ -487,7 +605,12 @@ function CoursesOverview() {
                       <Accordion.Body>
                         <div>
                           <h5>Course Title</h5>
-                          <p>Course Description</p>
+                          <p>
+                            <h6 style={{ marginBottom: "0px" }}>
+                              Course Description From RPI's Course Catalog:
+                            </h6>{" "}
+                            Description
+                          </p>
                         </div>
                         <Button
                           variant="primary"
@@ -507,7 +630,12 @@ function CoursesOverview() {
                       <Accordion.Body>
                         <div>
                           <h5>Course Title</h5>
-                          <p>Course Description</p>
+                          <p>
+                            <h6 style={{ marginBottom: "0px" }}>
+                              Course Description From RPI's Course Catalog:
+                            </h6>{" "}
+                            Description
+                          </p>
                         </div>
                         <Button
                           variant="primary"
@@ -527,7 +655,12 @@ function CoursesOverview() {
                       <Accordion.Body>
                         <div>
                           <h5>Course Title</h5>
-                          <p>Course Description</p>
+                          <p>
+                            <h6 style={{ marginBottom: "0px" }}>
+                              Course Description From RPI's Course Catalog:
+                            </h6>{" "}
+                            Description
+                          </p>
                         </div>
                       </Accordion.Body>
                     </Accordion.Item>
@@ -538,7 +671,12 @@ function CoursesOverview() {
                       <Accordion.Body>
                         <div>
                           <h5>Course Title</h5>
-                          <p>Course Description</p>
+                          <p>
+                            <h6 style={{ marginBottom: "0px" }}>
+                              Course Description From RPI's Course Catalog:
+                            </h6>{" "}
+                            Description
+                          </p>
                         </div>
                         <Button
                           variant="primary"
@@ -571,7 +709,12 @@ function CoursesOverview() {
                       <Accordion.Body>
                         <div>
                           <h5>Course Title</h5>
-                          <p>Course Description</p>
+                          <p>
+                            <h6 style={{ marginBottom: "0px" }}>
+                              Course Description From RPI's Course Catalog:
+                            </h6>{" "}
+                            Description
+                          </p>
                         </div>
                       </Accordion.Body>
                     </Accordion.Item>
@@ -583,7 +726,12 @@ function CoursesOverview() {
                       <Accordion.Body>
                         <div>
                           <h5>Course Title</h5>
-                          <p>Course Description</p>
+                          <p>
+                            <h6 style={{ marginBottom: "0px" }}>
+                              Course Description From RPI's Course Catalog:
+                            </h6>{" "}
+                            Description
+                          </p>
                         </div>
                       </Accordion.Body>
                     </Accordion.Item>
@@ -594,7 +742,12 @@ function CoursesOverview() {
                       <Accordion.Body>
                         <div>
                           <h5>Course Title</h5>
-                          <p>Course Description</p>
+                          <p>
+                            <h6 style={{ marginBottom: "0px" }}>
+                              Course Description From RPI's Course Catalog:
+                            </h6>{" "}
+                            Description
+                          </p>
                         </div>
                       </Accordion.Body>
                     </Accordion.Item>
@@ -605,7 +758,12 @@ function CoursesOverview() {
                       <Accordion.Body>
                         <div>
                           <h5>Course Title</h5>
-                          <p>Course Description</p>
+                          <p>
+                            <h6 style={{ marginBottom: "0px" }}>
+                              Course Description From RPI's Course Catalog:
+                            </h6>{" "}
+                            Description
+                          </p>
                         </div>
                       </Accordion.Body>
                     </Accordion.Item>
@@ -616,7 +774,12 @@ function CoursesOverview() {
                       <Accordion.Body>
                         <div>
                           <h5>Course Title</h5>
-                          <p>Course Description</p>
+                          <p>
+                            <h6 style={{ marginBottom: "0px" }}>
+                              Course Description From RPI's Course Catalog:
+                            </h6>{" "}
+                            Description
+                          </p>
                         </div>
                       </Accordion.Body>
                     </Accordion.Item>
@@ -627,7 +790,12 @@ function CoursesOverview() {
                       <Accordion.Body>
                         <div>
                           <h5>Course Title</h5>
-                          <p>Course Description</p>
+                          <p>
+                            <h6 style={{ marginBottom: "0px" }}>
+                              Course Description From RPI's Course Catalog:
+                            </h6>{" "}
+                            Description
+                          </p>
                         </div>
                       </Accordion.Body>
                     </Accordion.Item>
@@ -645,7 +813,12 @@ function CoursesOverview() {
                       <Accordion.Body>
                         <div>
                           <h5>Course Title</h5>
-                          <p>Course Description</p>
+                          <p>
+                            <h6 style={{ marginBottom: "0px" }}>
+                              Course Description From RPI's Course Catalog:
+                            </h6>{" "}
+                            Description
+                          </p>
                         </div>
                       </Accordion.Body>
                     </Accordion.Item>
@@ -656,7 +829,12 @@ function CoursesOverview() {
                       <Accordion.Body>
                         <div>
                           <h5>Course Title</h5>
-                          <p>Course Description</p>
+                          <p>
+                            <h6 style={{ marginBottom: "0px" }}>
+                              Course Description From RPI's Course Catalog:
+                            </h6>{" "}
+                            Description
+                          </p>
                         </div>
                       </Accordion.Body>
                     </Accordion.Item>
@@ -667,7 +845,12 @@ function CoursesOverview() {
                       <Accordion.Body>
                         <div>
                           <h5>Course Title</h5>
-                          <p>Course Description</p>
+                          <p>
+                            <h6 style={{ marginBottom: "0px" }}>
+                              Course Description From RPI's Course Catalog:
+                            </h6>{" "}
+                            Description
+                          </p>
                         </div>
                       </Accordion.Body>
                     </Accordion.Item>
@@ -678,7 +861,12 @@ function CoursesOverview() {
                       <Accordion.Body>
                         <div>
                           <h5>Course Title</h5>
-                          <p>Course Description</p>
+                          <p>
+                            <h6 style={{ marginBottom: "0px" }}>
+                              Course Description From RPI's Course Catalog:
+                            </h6>{" "}
+                            Description
+                          </p>
                         </div>
                       </Accordion.Body>
                     </Accordion.Item>
@@ -689,7 +877,12 @@ function CoursesOverview() {
                       <Accordion.Body>
                         <div>
                           <h5>Course Title</h5>
-                          <p>Course Description</p>
+                          <p>
+                            <h6 style={{ marginBottom: "0px" }}>
+                              Course Description From RPI's Course Catalog:
+                            </h6>{" "}
+                            Description
+                          </p>
                         </div>
                       </Accordion.Body>
                     </Accordion.Item>

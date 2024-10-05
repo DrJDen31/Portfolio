@@ -19,6 +19,10 @@ const NavBar = () => {
               Experience Overview
             </Nav.Link>
             */}
+            <Nav.Link className="text-white" href="/work-experience/overview">
+              Work Experience
+            </Nav.Link>
+            {/*
             <NavDropdown
               title={
                 <span className="text-white my-auto">Work Experience</span>
@@ -29,7 +33,7 @@ const NavBar = () => {
               <NavDropdown.Item href="/work-experience/overview">
                 Overview
               </NavDropdown.Item>
-              */}
+              
               <NavDropdown.Item href="/work-experience/moog">
                 Moog
               </NavDropdown.Item>
@@ -37,6 +41,7 @@ const NavBar = () => {
                 Troy Tutors
               </NavDropdown.Item>
             </NavDropdown>
+            */}
             {/*
             <NavDropdown
               title={

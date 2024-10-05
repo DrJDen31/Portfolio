@@ -1,6 +1,5 @@
 import { useNavigate } from "react-router-dom";
-import WIP from "../../components/WIP";
-import { Container } from "react-bootstrap";
+import { Button, Col, Container, Row } from "react-bootstrap";
 
 function TroyTutorsPage() {
   const navigate = useNavigate();
@@ -51,6 +50,19 @@ function TroyTutorsPage() {
           I will consider tutoring beyond that depending on my schedule.
         </p>
       </div>
+      <Row>
+        <Col></Col>
+        <Col md="auto">
+          <Button
+            variant="primary"
+            onClick={() => navigate("/work-experience/overview")}
+            className="mt-2"
+          >
+            See All Work Experience
+          </Button>
+        </Col>
+        <Col></Col>
+      </Row>
     </Container>
   );
 }

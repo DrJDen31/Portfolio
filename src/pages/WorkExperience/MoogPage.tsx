@@ -1,8 +1,10 @@
-import { Accordion, Col, Container, Row } from "react-bootstrap";
+import { Accordion, Button, Col, Container, Row } from "react-bootstrap";
 
 import moogpic from "../../content/images/IMG_7301 (1).jpg";
+import { useNavigate } from "react-router-dom";
 
 function MoogPage() {
+  const navigate = useNavigate();
   return (
     <Container className="pb-4">
       <div className="mt-2">
@@ -182,7 +184,7 @@ function MoogPage() {
         </Col>
         <Col></Col>
       </Row>
-      <h6 className="mt-2">
+      <h6 className="mt-2" style={{ textAlign: "center" }}>
         In conclusion, my internship at Moog was a great opportunity to grow as
         an engineer. It allowed me to practice learning new languages and
         software programs, work as part of an engineering team, and explore the
@@ -191,6 +193,19 @@ function MoogPage() {
         the next semester, as well as app design, which I now pursue in my free
         time.
       </h6>
+      <Row>
+        <Col></Col>
+        <Col md="auto">
+          <Button
+            variant="primary"
+            onClick={() => navigate("/work-experience/overview")}
+            className="mt-2"
+          >
+            See All Work Experience
+          </Button>
+        </Col>
+        <Col></Col>
+      </Row>
     </Container>
   );
 }

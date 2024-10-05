@@ -1,4 +1,4 @@
-import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { Container, Nav, Navbar, NavDropdown } from "react-bootstrap";
 
 const NavBar = () => {
@@ -19,29 +19,24 @@ const NavBar = () => {
               Experience Overview
             </Nav.Link>
             */}
-            <Nav.Link className="text-white" href="/work-experience/overview">
-              Work Experience
-            </Nav.Link>
-            {/*
+
             <NavDropdown
               title={
                 <span className="text-white my-auto">Work Experience</span>
               }
               id="nav-dropdown"
             >
-              {/*
-              <NavDropdown.Item href="/work-experience/overview">
+              <NavDropdown.Item as={Link} to="/work-experience/overview">
                 Overview
               </NavDropdown.Item>
-              
-              <NavDropdown.Item href="/work-experience/moog">
+              <NavDropdown.Item as={Link} to="/work-experience/moog">
                 Moog
               </NavDropdown.Item>
-              <NavDropdown.Item href="/work-experience/troy-tutors">
+              <NavDropdown.Item as={Link} to="/work-experience/troy-tutors">
                 Troy Tutors
               </NavDropdown.Item>
             </NavDropdown>
-            */}
+
             {/*
             <NavDropdown
               title={

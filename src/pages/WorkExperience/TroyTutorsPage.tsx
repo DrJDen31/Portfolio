@@ -28,20 +28,24 @@ function TroyTutorsPage() {
             <li>
               Computer Science:
               <ul>
-                <li>Computer Science 1</li>
-                <li>Data Structures</li>
-                <li>Foundations of Computer Science</li>
-                <li>Principles of Software</li>
-                <li>Intro to Algorithms</li>
+                <li>Computer Science 1 (Python)</li>
+                <li>
+                  <a href="jadentompkins.com/courses-overview#dataStructures">
+                    Data Structures (C++)
+                  </a>
+                </li>
+                <li>Foundations of Computer Science (Theoretical)</li>
+                <li>Principles of Software (Java)</li>
+                <li>Intro to Algorithms (Theoretical)</li>
               </ul>
             </li>
             <li>
-              Electrical, Computer, & Systems Engineering (ECSE):
+              Electrical, Computer, & Systems Engineering [ECSE]:
               <ul>
                 <li>Intro to ECSE</li>
-                <li>Computer Components & Operations (CoCO)</li>
+                <li>Computer Components & Operations [CoCO]</li>
                 <li>Electric Circuits</li>
-                <li>Embedded Control</li>
+                <li>Embedded Control (C)</li>
                 <li>Intro to Electronics</li>
               </ul>
             </li>

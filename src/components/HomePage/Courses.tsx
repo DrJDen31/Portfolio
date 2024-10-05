@@ -10,22 +10,23 @@ function Courses() {
               <Col>
                 <p className="fw-bold">Computer Science:</p>
                 <ul>
-                  <li>Computer Science 1</li>
-                  <li>Data Structures</li>
-                  <li>Foundations of Computer Science</li>
-                  <li>Principles of Software</li>
+                  <li>Computer Science 1 [CS 1] (Python)</li>
+                  <li>Data Structures (C++)</li>
+                  <li>Foundations of Computer Science [FOCS]</li>
+                  <li>Principles of Software (Java)</li>
                   <li>Intro to Algorithms</li>
                 </ul>
               </Col>
               <Col>
                 <p className="fw-bold">Computer & Systems Engineering:</p>
                 <ul>
-                  <li>Computer Components & Operations</li>
-                  <li>Embedded Control</li>
+                  <li>Computer Components & Operations [CoCO]</li>
+                  <li>Embedded Control (C)</li>
                   <li>
                     Computer Architecture, Networking, & Operating Systems
+                    [CANOS]
                   </li>
-                  <li>Internetworking of Things</li>
+                  <li>Internetworking of Things [IoT]</li>
                 </ul>
               </Col>
             </Row>
@@ -33,7 +34,9 @@ function Courses() {
               <Col>
                 <p className="fw-bold">Electrical Engineering:</p>
                 <ul>
-                  <li>Intro to Electrical, Computer, & Systems Engineering</li>
+                  <li>
+                    Intro to Electrical, Computer, & Systems Engineering [ECSE]
+                  </li>
                   <li>Electric Circuits</li>
                   <li>Intro to Electronics</li>
                 </ul>
@@ -41,7 +44,7 @@ function Courses() {
               <Col>
                 <p className="fw-bold">Artificial Intelligence:</p>
                 <ul>
-                  <li>Extended Cognition</li>
+                  <li>Extended Cognition (C++)</li>
                   <li>Intro to Cognitive Science</li>
                 </ul>
               </Col>

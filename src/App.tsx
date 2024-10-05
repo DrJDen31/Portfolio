@@ -2,6 +2,7 @@ import { Routes, Route } from "react-router-dom";
 
 import Home from "./pages/HomePage";
 import ExperienceOverview from "./pages/ExperienceOverviewPage";
+import CoursesOverview from "./pages/CoursesOverview";
 
 import WorkExperienceOverview from "./pages/WorkExperience/WorkExperienceOverviewPage";
 import MoogPage from "./pages/WorkExperience/MoogPage";
@@ -40,6 +41,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/experience-overview" element={<ExperienceOverview />} />
+        <Route path="/courses-overview" element={<CoursesOverview />} />
 
         <Route
           path="/work-experience/overview"

@@ -15,7 +15,7 @@ const NavBar = () => {
               Home
             </Nav.Link>
             {/*
-            <Nav.Link className="text-white" href="/experience-overview">
+            <Nav.Link className="text-white" as={Link} to="/experience-overview">
               Experience Overview
             </Nav.Link>
             */}
@@ -44,16 +44,16 @@ const NavBar = () => {
               }
               id="basic-nav-dropdown"
             >
-              <NavDropdown.Item href="/embedded-systems/overview">
+              <NavDropdown.Item as={Link} to="/embedded-systems/overview">
                 Overview
               </NavDropdown.Item>
-              <NavDropdown.Item href="/embedded-systems/embedded-controls-maze">
+              <NavDropdown.Item as={Link} to="/embedded-systems/embedded-controls-maze">
                 Car Maze
               </NavDropdown.Item>
-              <NavDropdown.Item href="/embedded-systems/ied-handy-helper">
+              <NavDropdown.Item as={Link} to="/embedded-systems/ied-handy-helper">
                 Handy Helper
               </NavDropdown.Item>
-              <NavDropdown.Item href="/embedded-systems/vtol-drone">
+              <NavDropdown.Item as={Link} to="/embedded-systems/vtol-drone">
                 VTOL Drone
               </NavDropdown.Item>
             </NavDropdown>
@@ -63,19 +63,19 @@ const NavBar = () => {
               }
               id="basic-nav-dropdown"
             >
-              <NavDropdown.Item href="/mobile-development/overview">
+              <NavDropdown.Item as={Link} to="/mobile-development/overview">
                 Overview
               </NavDropdown.Item>
-              <NavDropdown.Item href="/mobile-development/aora">
+              <NavDropdown.Item as={Link} to="/mobile-development/aora">
                 Aora
               </NavDropdown.Item>
-              <NavDropdown.Item href="/mobile-development/smart-cal">
+              <NavDropdown.Item as={Link} to="/mobile-development/smart-cal">
                 SmartCal
               </NavDropdown.Item>
-              <NavDropdown.Item href="/mobile-development/feature-ring">
+              <NavDropdown.Item as={Link} to="/mobile-development/feature-ring">
                 FeatureRing
               </NavDropdown.Item>
-              <NavDropdown.Item href="/mobile-development/my-fellow-americans">
+              <NavDropdown.Item as={Link} to="/mobile-development/my-fellow-americans">
                 MyFellowAmericans
               </NavDropdown.Item>
             </NavDropdown>
@@ -83,16 +83,16 @@ const NavBar = () => {
               title={<span className="text-white my-auto">Unreal Engine</span>}
               id="basic-nav-dropdown"
             >
-              <NavDropdown.Item href="/unreal-engine/overview">
+              <NavDropdown.Item as={Link} to="/unreal-engine/overview">
                 Overview
               </NavDropdown.Item>
-              <NavDropdown.Item href="/unreal-engine/npc-analysis">
+              <NavDropdown.Item as={Link} to="/unreal-engine/npc-analysis">
                 NPC Analysis
               </NavDropdown.Item>
-              <NavDropdown.Item href="/unreal-engine/module-zero">
+              <NavDropdown.Item as={Link} to="/unreal-engine/module-zero">
                 Module Zero
               </NavDropdown.Item>
-              <NavDropdown.Item href="/unreal-engine/adlib">
+              <NavDropdown.Item as={Link} to="/unreal-engine/adlib">
                 Adlib
               </NavDropdown.Item>
             </NavDropdown>
@@ -102,10 +102,10 @@ const NavBar = () => {
               }
               id="basic-nav-dropdown"
             >
-              <NavDropdown.Item href="/internet-of-things/overview">
+              <NavDropdown.Item as={Link} to="/internet-of-things/overview">
                 Overview
               </NavDropdown.Item>
-              <NavDropdown.Item href="/internet-of-things/verified-clock-in">
+              <NavDropdown.Item as={Link} to="/internet-of-things/verified-clock-in">
                 Verified Clock In
               </NavDropdown.Item>
             </NavDropdown>
@@ -113,10 +113,10 @@ const NavBar = () => {
               title={<span className="text-white my-auto">Circuit Design</span>}
               id="basic-nav-dropdown"
             >
-              <NavDropdown.Item href="/circuit-design/overview">
+              <NavDropdown.Item as={Link} to="/circuit-design/overview">
                 Overview
               </NavDropdown.Item>
-              <NavDropdown.Item href="/circuit-design/heartbeat-sensor">
+              <NavDropdown.Item as={Link} to="/circuit-design/heartbeat-sensor">
                 Heartbeat Sensor
               </NavDropdown.Item>
             </NavDropdown>

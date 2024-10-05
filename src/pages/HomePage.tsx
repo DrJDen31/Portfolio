@@ -11,6 +11,7 @@ import robotcar from "../content/images/robotcar.png";
 import iot from "../content/images/IoT.png";
 import module from "../content/images/Module.png";
 import CardImage from "../components/CardImage";
+import ExperienceCard from "../components/ExperienceCard";
 
 function Home() {
   const navigate = useNavigate();
@@ -94,41 +95,55 @@ function Home() {
           <h3>Featured Work Experience</h3>
           <Col></Col>
           <Col md="auto">
-            <Card className="mt-2" style={{ width: "18rem", height: "24rem" }}>
-              <CardImage source={moogpic} />
-              <Card.Body>
-                <Card.Title>Moog</Card.Title>
-                <Card.Text>
-                  Fall 2023 Engineering Internship in Buffalo, NY as a part of
-                  the ZQuip team for Moog Construction
-                </Card.Text>
-                <Button
-                  variant="primary"
-                  onClick={() => navigate("/work-experience/moog")}
-                >
-                  More Information
-                </Button>
-              </Card.Body>
-            </Card>
+            <ExperienceCard
+              imageSource={moogpic}
+              title="Moog"
+              text="Fall 2023 Engineering Internship in Buffalo, NY as a part of
+                  the ZQuip team for Moog Construction"
+              tags={[
+                {
+                  text: "Work",
+                  color: "#80FF86",
+                },
+                {
+                  text: "Python",
+                  color: "orange",
+                },
+                {
+                  text: "Bash",
+                  color: "orange",
+                },
+                {
+                  text: "CODESYS",
+                  color: "orange",
+                },
+              ]}
+              navigationPath="/work-experience/moog"
+            />
           </Col>
           <Col xs></Col>
           <Col md="auto">
-            <Card className="mt-2" style={{ width: "18rem", height: "24rem" }}>
-              <CardImage source={troytutors} />
-              <Card.Body>
-                <Card.Title>Troy Tutors</Card.Title>
-                <Card.Text>
-                  Part time tutor through Troy Tutors in CS and CSE courses,
-                  such as Data Structures and CANOS
-                </Card.Text>
-                <Button
-                  variant="primary"
-                  onClick={() => navigate("/work-experience/troy-tutors")}
-                >
-                  More Info
-                </Button>
-              </Card.Body>
-            </Card>
+            <ExperienceCard
+              imageSource={troytutors}
+              title="Troy Tutors"
+              text="Part time tutor through Troy Tutors in CS and CSE courses,
+                  such as Data Structures and CANOS"
+              tags={[
+                {
+                  text: "Work",
+                  color: "#80FF86",
+                },
+                {
+                  text: "Data Structures",
+                  color: "#80F9FF",
+                },
+                {
+                  text: "CANOS",
+                  color: "#80F9FF",
+                },
+              ]}
+              navigationPath="/work-experience/troy-tutors"
+            />
           </Col>
           <Col></Col>
         </Row>
@@ -136,62 +151,81 @@ function Home() {
           <h3>Featured Project Experience</h3>
           <Col></Col>
           <Col md="auto">
-            <Card className="mt-2" style={{ width: "18rem", height: "24rem" }}>
-              <CardImage source={robotcar} />
-              <Card.Body>
-                <Card.Title>Embedded Control: Car Maze</Card.Title>
-                <Card.Text>
-                  Final project (partner) for Embedded Control
-                </Card.Text>
-                <Button
-                  variant="primary"
-                  onClick={() =>
-                    navigate("/embedded-systems/embedded-controls-maze")
-                  }
-                >
-                  More Info
-                </Button>
-              </Card.Body>
-            </Card>
+            <ExperienceCard
+              imageSource={robotcar}
+              title="Embedded Control: Car Maze"
+              text="Final project (partner) for Embedded Control"
+              tags={[
+                {
+                  text: "In Class",
+                  color: "#80FF86",
+                },
+                {
+                  text: "Embedded Control",
+                  color: "#80F9FF",
+                },
+                {
+                  text: "C",
+                  color: "orange",
+                },
+              ]}
+              navigationPath="/embedded-systems/embedded-controls-maze"
+            />
           </Col>
           <Col xs></Col>
           <Col md="auto">
-            <Card className="mt-2" style={{ width: "18rem", height: "24rem" }}>
-              <CardImage source={iot} />
-              <Card.Body>
-                <Card.Title>Internet of Things: Verified Clock In</Card.Title>
-                <Card.Text>
-                  Final project (solo) for Internetworking of Things
-                </Card.Text>
-                <Button
-                  variant="primary"
-                  onClick={() =>
-                    navigate("/internet-of-things/verified-clock-in")
-                  }
-                >
-                  More Info
-                </Button>
-              </Card.Body>
-            </Card>
+            <ExperienceCard
+              imageSource={iot}
+              title="Internet of Things: Verified Clock In"
+              text="Final project (solo) for Internetworking of Things"
+              tags={[
+                {
+                  text: "In Class",
+                  color: "#80FF86",
+                },
+                {
+                  text: "IoT",
+                  color: "#80F9FF",
+                },
+                {
+                  text: "Python",
+                  color: "orange",
+                },
+                {
+                  text: "HTTP",
+                  color: "orange",
+                },
+              ]}
+              navigationPath="/internet-of-things/verified-clock-in"
+            />
           </Col>
           <Col xs></Col>
           <Col md="auto">
-            <Card className="mt-2" style={{ width: "18rem", height: "24rem" }}>
-              <CardImage source={module} />
-              <Card.Body>
-                <Card.Title>Module Zero</Card.Title>
-                <Card.Text>
-                  Personal project designing an First Person Shooter (FPS) in
-                  Unreal Engine 5
-                </Card.Text>
-                <Button
-                  variant="primary"
-                  onClick={() => navigate("/unreal-engine/module-zero")}
-                >
-                  More Info
-                </Button>
-              </Card.Body>
-            </Card>
+            <ExperienceCard
+              imageSource={module}
+              title="Module Zero"
+              text="Personal project designing an First Person Shooter (FPS) in
+                  Unreal Engine 5"
+              tags={[
+                {
+                  text: "Personal",
+                  color: "#80FF86",
+                },
+                {
+                  text: "UE5",
+                  color: "orange",
+                },
+                {
+                  text: "C++",
+                  color: "orange",
+                },
+                {
+                  text: "Blueprint",
+                  color: "orange",
+                },
+              ]}
+              navigationPath="/unreal-engine/module-zero"
+            />
           </Col>
           <Col></Col>
         </Row>

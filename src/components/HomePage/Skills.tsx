@@ -25,7 +25,7 @@ function Skills() {
             <li>Blender</li>
             <li>LTSpice</li>
             <li>MATLAB</li>
-            <li>Codesys</li>
+            <li>CODESYS</li>
             <li>FL Studio</li>
           </ul>
         </Col>

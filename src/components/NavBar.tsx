@@ -10,23 +10,26 @@ const NavBar = () => {
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          {/*
           <Nav className="me-auto">
             <Nav.Link className="text-white" href="/">
               Home
             </Nav.Link>
+            {/*
             <Nav.Link className="text-white" href="/experience-overview">
               Experience Overview
             </Nav.Link>
+            */}
             <NavDropdown
               title={
                 <span className="text-white my-auto">Work Experience</span>
               }
               id="nav-dropdown"
             >
+              {/*
               <NavDropdown.Item href="/work-experience/overview">
                 Overview
               </NavDropdown.Item>
+              */}
               <NavDropdown.Item href="/work-experience/moog">
                 Moog
               </NavDropdown.Item>
@@ -34,6 +37,7 @@ const NavBar = () => {
                 Troy Tutors
               </NavDropdown.Item>
             </NavDropdown>
+            {/*
             <NavDropdown
               title={
                 <span className="text-white my-auto">Embedded Systems</span>
@@ -116,8 +120,8 @@ const NavBar = () => {
                 Heartbeat Sensor
               </NavDropdown.Item>
             </NavDropdown>
+            */}
           </Nav>
-          */}
         </Navbar.Collapse>
       </Container>
     </Navbar>

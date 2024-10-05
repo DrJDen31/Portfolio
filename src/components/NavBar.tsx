@@ -95,6 +95,12 @@ const NavBar = () => {
               <NavDropdown.Item as={Link} to="/unreal-engine/adlib">
                 Adlib
               </NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/unreal-engine/chinese-room">
+                Chinese Room
+              </NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/unreal-engine/genotype">
+                Genotype
+              </NavDropdown.Item>
             </NavDropdown>
             <NavDropdown
               title={

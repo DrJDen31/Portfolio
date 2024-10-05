@@ -81,6 +81,19 @@ function Home() {
           <Accordion.Header>Courses</Accordion.Header>
           <Accordion.Body>
             <Courses />
+            <Row>
+              <Col></Col>
+              <Col md="auto">
+                <Button
+                  variant="primary"
+                  onClick={() => navigate("/courses-overview")}
+                  className="mt-2"
+                >
+                  See Overview of All Courses
+                </Button>
+              </Col>
+              <Col></Col>
+            </Row>
           </Accordion.Body>
         </Accordion.Item>
         <Accordion.Item eventKey="1">

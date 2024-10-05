@@ -5,7 +5,7 @@ function TroyTutorsPage() {
   const navigate = useNavigate();
 
   return (
-    <Container>
+    <Container className="mb-4">
       <div>
         <h2>Troy Tutors</h2>
         <h4 style={{ color: "gray" }} className="pb-2">
@@ -29,11 +29,7 @@ function TroyTutorsPage() {
               Computer Science:
               <ul>
                 <li>Computer Science 1 (Python)</li>
-                <li>
-                  <a href="http://www.jadentompkins.com/courses-overview#dataStructures">
-                    Data Structures (C++)
-                  </a>
-                </li>
+                <li>Data Structures (C++)</li>
                 <li>Foundations of Computer Science (Theoretical)</li>
                 <li>Principles of Software (Java)</li>
                 <li>Intro to Algorithms (Theoretical)</li>
@@ -43,10 +39,13 @@ function TroyTutorsPage() {
               Electrical, Computer, & Systems Engineering [ECSE]:
               <ul>
                 <li>Intro to ECSE</li>
-                <li>Computer Components & Operations [CoCO]</li>
                 <li>Electric Circuits</li>
-                <li>Embedded Control (C)</li>
                 <li>Intro to Electronics</li>
+                <li>Embedded Control (C)</li>
+                <li>Computer Components & Operations [CoCO]</li>
+                <li>
+                  Computer Architecture, Networks, & Operating Systems [CANOS]
+                </li>
               </ul>
             </li>
           </ul>
@@ -63,6 +62,15 @@ function TroyTutorsPage() {
             className="mt-2"
           >
             See All Work Experience
+          </Button>
+        </Col>
+        <Col md="auto">
+          <Button
+            variant="primary"
+            onClick={() => navigate("/courses-overview")}
+            className="mt-2"
+          >
+            See Overview of All Courses
           </Button>
         </Col>
         <Col></Col>

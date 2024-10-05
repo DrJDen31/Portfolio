@@ -33,6 +33,8 @@ import HeartbeatSensorPage from "./pages/CircuitDesign/HeartbeatSensorPage";
 import NavBar from "./components/NavBar";
 
 import "./App.css";
+import ChineseRoomPage from "./pages/UnrealEngine/ChineseRoomPage";
+import GenotypePage from "./pages/UnrealEngine/GenotypePage";
 
 function App() {
   return (
@@ -98,6 +100,11 @@ function App() {
         />
         <Route path="/unreal-engine/module-zero" element={<ModuleZeroPage />} />
         <Route path="/unreal-engine/adlib" element={<AdlibPage />} />
+        <Route
+          path="/unreal-engine/chinese-room"
+          element={<ChineseRoomPage />}
+        />
+        <Route path="/unreal-engine/genotype" element={<GenotypePage />} />
 
         <Route
           path="/internet-of-things/overview"

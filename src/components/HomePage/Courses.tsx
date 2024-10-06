@@ -3,7 +3,7 @@ import { Col, Container, Row, Tab, Tabs } from "react-bootstrap";
 function Courses() {
   return (
     <Tabs defaultActiveKey="taken" id="courses-tab" className="mb-3">
-      <Tab eventKey="taken" title="Classes I've Taken">
+      <Tab eventKey="taken" title="Key Classes I've Taken">
         <Container>
           <Row>
             <Row>

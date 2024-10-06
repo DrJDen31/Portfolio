@@ -78,7 +78,7 @@ function Home() {
       <p className="fs-5 fw-bold">Courses and Skills:</p>
       <Accordion defaultActiveKey={["0", "1"]} alwaysOpen>
         <Accordion.Item eventKey="0">
-          <Accordion.Header>Courses</Accordion.Header>
+          <Accordion.Header>Featured Courses</Accordion.Header>
           <Accordion.Body>
             <Courses />
             <Row>
@@ -233,7 +233,7 @@ function Home() {
                   color: "orange",
                 },
                 {
-                  text: "Blueprint",
+                  text: "Blueprint VSL",
                   color: "orange",
                 },
               ]}

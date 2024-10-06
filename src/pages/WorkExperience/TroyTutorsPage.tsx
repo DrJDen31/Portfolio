@@ -14,25 +14,24 @@ function TroyTutorsPage() {
         <p>Part Time: August 2024 - Present</p>
         <p>
           This semester I started working part time for{" "}
-          <a href="https://www.troytutors.com/">Troy Tutors.</a> I've always
-          thought of myself as a good teacher, helping classmates to understand
-          the material throughout high school and even some in college. I've
-          thought some about teaching eventually, so this is a good opportunity
-          to try it out small scale and in between classes.
+          <a href="https://www.troytutors.com/">Troy Tutors.</a> I've always had
+          some experience teaching, helping classmates to understand the
+          material throughout high school and even some in college. This is a
+          good opportunity to try it out small scale and in between classes as
+          well as keep the skills I learned from each class fresh in my memory.
         </p>
         <p>
-          For many of my classes, I performed well academically and felt I have
-          a good grip of the material, so I am currently offering tutoring for
-          the following classes:
+          I initially applied as a CANOS tutor, but expanded to the following
+          classes after getting hired:
           <ul>
             <li>
               Computer Science:
               <ul>
                 <li>Computer Science 1 (Python)</li>
                 <li>Data Structures (C++)</li>
-                <li>Foundations of Computer Science (Theoretical)</li>
+                <li>Foundations of Computer Science</li>
                 <li>Principles of Software (Java)</li>
-                <li>Intro to Algorithms (Theoretical)</li>
+                <li>Intro to Algorithms</li>
               </ul>
             </li>
             <li>
@@ -42,7 +41,7 @@ function TroyTutorsPage() {
                 <li>Electric Circuits</li>
                 <li>Intro to Electronics</li>
                 <li>Embedded Control (C)</li>
-                <li>Computer Components & Operations [CoCO]</li>
+                <li>Computer Components & Operations</li>
                 <li>
                   Computer Architecture, Networks, & Operating Systems [CANOS]
                 </li>

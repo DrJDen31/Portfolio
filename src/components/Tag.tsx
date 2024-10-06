@@ -7,7 +7,6 @@ function Tag({ text, color }) {
         height: "fit-content",
         maxHeight: "25px",
         width: "fit-content",
-        maxWidth: "150px",
         background: `${color}`,
         justifyContent: "center",
         alignContent: "center",

@@ -8,7 +8,9 @@ function Courses() {
           <Row>
             <Row>
               <Col>
-                <p className="fw-bold">Computer Science:</p>
+                <p className="fw-bold" style={{ marginBottom: "0px" }}>
+                  Computer Science:
+                </p>
                 <ul>
                   <li>Computer Science 1 [CS 1] (Python)</li>
                   <li>Data Structures (C++)</li>
@@ -18,7 +20,9 @@ function Courses() {
                 </ul>
               </Col>
               <Col>
-                <p className="fw-bold">Computer & Systems Engineering:</p>
+                <p className="fw-bold" style={{ marginBottom: "0px" }}>
+                  Computer & Systems Engineering:
+                </p>
                 <ul>
                   <li>Computer Components & Operations [CoCO]</li>
                   <li>Embedded Control (C)</li>
@@ -32,7 +36,9 @@ function Courses() {
             </Row>
             <Row>
               <Col>
-                <p className="fw-bold">Electrical Engineering:</p>
+                <p className="fw-bold" style={{ marginBottom: "0px" }}>
+                  Electrical Engineering:
+                </p>
                 <ul>
                   <li>
                     Intro to Electrical, Computer, & Systems Engineering [ECSE]
@@ -42,7 +48,9 @@ function Courses() {
                 </ul>
               </Col>
               <Col>
-                <p className="fw-bold">Artificial Intelligence:</p>
+                <p className="fw-bold" style={{ marginBottom: "0px" }}>
+                  Artificial Intelligence:
+                </p>
                 <ul>
                   <li>Extended Cognition (C++)</li>
                   <li>Intro to Cognitive Science</li>
@@ -56,7 +64,9 @@ function Courses() {
         <Container>
           <Row>
             <Col>
-              <p className="fw-bold">This Semester (Fall 2024)</p>
+              <p className="fw-bold" style={{ marginBottom: "0px" }}>
+                This Semester (Fall 2024)
+              </p>
               <ul>
                 <li>Computer Hardware Design</li>
                 <li>Microprocessor Systems</li>
@@ -67,7 +77,9 @@ function Courses() {
               </ul>
             </Col>
             <Col>
-              <p className="fw-bold">Next Semester (Spring 2025)</p>
+              <p className="fw-bold" style={{ marginBottom: "0px" }}>
+                Next Semester (Spring 2025)
+              </p>
               <ul>
                 <li>Signals & Systems</li>
                 <li>Operating Systems</li>

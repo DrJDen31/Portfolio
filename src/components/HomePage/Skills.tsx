@@ -8,7 +8,9 @@ function Skills() {
           <Container>
             <Row>
               <Col>
-                <p className="fw-bold">Miscellaneous:</p>
+                <p className="fw-bold" style={{ marginBottom: "0px" }}>
+                  Miscellaneous:
+                </p>
                 <ul>
                   <li>CAN (J1939 and CANOpen)</li>
                   <li>Lambda Calculus</li>
@@ -19,7 +21,9 @@ function Skills() {
                 </ul>
               </Col>
               <Col>
-                <p className="fw-bold">Programming:</p>
+                <p className="fw-bold" style={{ marginBottom: "0px" }}>
+                  Programming:
+                </p>
                 <ul>
                   <li>Python</li>
                   <li>C/C++</li>
@@ -35,7 +39,9 @@ function Skills() {
                 </ul>
               </Col>
               <Col>
-                <p className="fw-bold">Software:</p>
+                <p className="fw-bold" style={{ marginBottom: "0px" }}>
+                  Software:
+                </p>
                 <ul>
                   <li>Unreal Engine</li>
                   <li>Blender</li>
@@ -53,7 +59,9 @@ function Skills() {
           <Container>
             <Row>
               <Col>
-                <p className="fw-bold">Embedded:</p>
+                <p className="fw-bold" style={{ marginBottom: "0px" }}>
+                  Embedded:
+                </p>
                 <ul>
                   <li>Embedded Systems</li>
                   <li>Timers</li>
@@ -67,7 +75,9 @@ function Skills() {
                 </ul>
               </Col>
               <Col>
-                <p className="fw-bold">Circuit Design & Analysis:</p>
+                <p className="fw-bold" style={{ marginBottom: "0px" }}>
+                  Circuit Design & Analysis:
+                </p>
                 <ul>
                   <li>Breadboard Circuit Design & Analysis</li>
                   <li>Waveform Analysis through Scoping</li>
@@ -77,7 +87,9 @@ function Skills() {
                 </ul>
               </Col>
               <Col>
-                <p className="fw-bold">Internet of Things:</p>
+                <p className="fw-bold" style={{ marginBottom: "0px" }}>
+                  Internet of Things:
+                </p>
                 <ul>
                   <li>HTTP</li>
                   <li>Zigbee</li>

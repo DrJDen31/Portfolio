@@ -8,7 +8,7 @@ function Skills() {
           <Container>
             <Row>
               <Col>
-                <h6 style={{ marginBottom: "0px" }}>Miscellaneous:</h6>
+                <p className="fw-bold">Miscellaneous:</p>
                 <ul>
                   <li>CAN (J1939 and CANOpen)</li>
                   <li>Lambda Calculus</li>
@@ -19,7 +19,7 @@ function Skills() {
                 </ul>
               </Col>
               <Col>
-                <h6 style={{ marginBottom: "0px" }}>Programming:</h6>
+                <p className="fw-bold">Programming:</p>
                 <ul>
                   <li>Python</li>
                   <li>C/C++</li>
@@ -35,7 +35,7 @@ function Skills() {
                 </ul>
               </Col>
               <Col>
-                <h6 style={{ marginBottom: "0px" }}>Software:</h6>
+                <p className="fw-bold">Software:</p>
                 <ul>
                   <li>Unreal Engine</li>
                   <li>Blender</li>
@@ -53,7 +53,7 @@ function Skills() {
           <Container>
             <Row>
               <Col>
-                <h6 style={{ marginBottom: "0px" }}>Embedded:</h6>
+                <p className="fw-bold">Embedded:</p>
                 <ul>
                   <li>Embedded Systems</li>
                   <li>Timers</li>
@@ -67,9 +67,7 @@ function Skills() {
                 </ul>
               </Col>
               <Col>
-                <h6 style={{ marginBottom: "0px" }}>
-                  Circuit Design & Analysis:
-                </h6>
+                <p className="fw-bold">Circuit Design & Analysis:</p>
                 <ul>
                   <li>Breadboard Circuit Design & Analysis</li>
                   <li>Waveform Analysis through Scoping</li>
@@ -79,7 +77,7 @@ function Skills() {
                 </ul>
               </Col>
               <Col>
-                <h6 style={{ marginBottom: "0px" }}>Internet of Things:</h6>
+                <p className="fw-bold">Internet of Things:</p>
                 <ul>
                   <li>HTTP</li>
                   <li>Zigbee</li>

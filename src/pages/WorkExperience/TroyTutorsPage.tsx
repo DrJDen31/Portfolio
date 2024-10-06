@@ -1,5 +1,6 @@
 import { useNavigate } from "react-router-dom";
 import { Button, Col, Container, Row } from "react-bootstrap";
+import { HashLink } from "react-router-hash-link";
 
 function TroyTutorsPage() {
   const navigate = useNavigate();
@@ -27,7 +28,11 @@ function TroyTutorsPage() {
             <li>
               Computer Science:
               <ul>
-                <li>Computer Science 1 (Python)</li>
+                <li>
+                  <HashLink to="/courses-overview#computerScience">
+                    Computer Science 1 (Python)
+                  </HashLink>
+                </li>
                 <li>Data Structures (C++)</li>
                 <li>Foundations of Computer Science</li>
                 <li>Principles of Software (Java)</li>
@@ -43,7 +48,9 @@ function TroyTutorsPage() {
                 <li>Embedded Control (C)</li>
                 <li>Computer Components & Operations</li>
                 <li>
-                  Computer Architecture, Networks, & Operating Systems [CANOS]
+                  <HashLink to="/courses-overview#CANOS">
+                    Computer Architecture, Networks, & Operating Systems [CANOS]
+                  </HashLink>
                 </li>
               </ul>
             </li>

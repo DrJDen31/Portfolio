@@ -7,11 +7,25 @@ import {
   Tab,
   Button,
 } from "react-bootstrap";
-import { useNavigate } from "react-router-dom";
+import { useLocation, useNavigate } from "react-router-dom";
 import Tag from "../components/Tag";
+import { useEffect, useState } from "react";
 
 function CoursesOverview() {
   const navigate = useNavigate();
+  const location = useLocation();
+
+  const [key, setKey] = useState("freshman");
+
+  useEffect(() => {
+    if (location.hash) {
+      switch (location.hash) {
+        case "CANOS":
+          setKey("junior");
+      }
+    }
+  }, [location.hash]);
+
   return (
     <Container>
       <div className="mt-2" style={{ border: "2px" }}>
@@ -21,6 +35,8 @@ function CoursesOverview() {
         </p>
         <Tabs
           defaultActiveKey="freshman"
+          activeKey={key}
+          onSelect={(k) => setKey(k)}
           id="courses-overview-tab"
           className="mb-1"
         >
@@ -37,7 +53,9 @@ function CoursesOverview() {
                       </Accordion.Header>
                       <Accordion.Body>
                         <div>
-                          <h5>Computer Science I</h5>
+                          <a id="computerScience">
+                            <h5>Computer Science I</h5>
+                          </a>
                           <p style={{ marginBottom: "4px" }}>
                             <h6 style={{ marginBottom: "0px" }}>
                               Course Description From RPI's Course Catalog:
@@ -930,10 +948,12 @@ function CoursesOverview() {
                       </Accordion.Header>
                       <Accordion.Body>
                         <div>
-                          <h5>
-                            Computer Architechture, Networks, & Operating
-                            Systems
-                          </h5>
+                          <a id="CANOS">
+                            <h5>
+                              Computer Architechture, Networks, & Operating
+                              Systems
+                            </h5>
+                          </a>
                           <p style={{ marginBottom: "4px" }}>
                             <h6 style={{ marginBottom: "0px" }}>
                               Course Description From RPI's Course Catalog:

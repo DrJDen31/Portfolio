@@ -1,6 +1,7 @@
 import { useNavigate } from "react-router-dom";
 import { Button, Col, Container, Row } from "react-bootstrap";
 import { HashLink } from "react-router-hash-link";
+import Tag from "../../components/Tag";
 
 function TroyTutorsPage() {
   const navigate = useNavigate();
@@ -12,7 +13,31 @@ function TroyTutorsPage() {
         <h4 style={{ color: "gray" }} className="pb-2">
           Tutor
         </h4>
-        <p>Part Time: August 2024 - Present</p>
+        <p style={{ marginTop: "0px" }}>Part Time: August 2024 - Present</p>
+        <div
+          style={{
+            display: "flex",
+            flex: "none",
+            flexDirection: "row",
+            flexWrap: "wrap",
+            marginBottom: "8px",
+            borderStyle: "solid",
+            borderWidth: "1px",
+            borderColor: "#AAAAAA",
+            borderRadius: "5px",
+            width: "fit-content",
+          }}
+        >
+          <div className="p-1">
+            <Tag text="Work" color="#80FF86" />
+          </div>
+          <div className="p-1">
+            <Tag text="Data Structures" color="#80F9FF" />
+          </div>
+          <div className="p-1">
+            <Tag text="CANOS" color="#80F9FF" />
+          </div>
+        </div>
         <p>
           This semester I started working part time for{" "}
           <a href="https://www.troytutors.com/">Troy Tutors.</a> I've always had

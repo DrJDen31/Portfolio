@@ -1,6 +1,7 @@
 import { Accordion, Col, Container, Row } from "react-bootstrap";
 
 import robotcar from "../../content/images/robotcar.png";
+import Tag from "../../components/Tag";
 
 function EmbeddedControlsMazePage() {
   return (
@@ -10,7 +11,31 @@ function EmbeddedControlsMazePage() {
         <h4 style={{ color: "gray" }} className="pb-2">
           Embedded Control
         </h4>
-        <p>Fall Semester, 2022</p>
+        <p style={{ marginTop: "0px" }}>Fall Semester, 2022</p>
+        <div
+          style={{
+            display: "flex",
+            flex: "none",
+            flexDirection: "row",
+            flexWrap: "wrap",
+            marginBottom: "8px",
+            borderStyle: "solid",
+            borderWidth: "1px",
+            borderColor: "#AAAAAA",
+            borderRadius: "5px",
+            width: "fit-content",
+          }}
+        >
+          <div className="p-1">
+            <Tag text="In Class" color="#80FF86" />
+          </div>
+          <div className="p-1">
+            <Tag text="Embedded Control" color="#80F9FF" />
+          </div>
+          <div className="p-1">
+            <Tag text="C" color="orange" />
+          </div>
+        </div>
         <p>
           The final project for Embedded Control was to use the concepts we've
           learned and implemented so far, such as the ultrasonic sensor, to

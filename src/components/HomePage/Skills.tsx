@@ -2,7 +2,7 @@ import { Col, Container, Row, Tab, Tabs } from "react-bootstrap";
 
 function Skills() {
   return (
-    <div style={{ height: "350px" }}>
+    <div>
       <Tabs defaultActiveKey="general" id="courses-tab" className="mb-3">
         <Tab eventKey="general" title="General Skills">
           <Container>

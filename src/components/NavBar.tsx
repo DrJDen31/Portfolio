@@ -37,6 +37,31 @@ const NavBar = () => {
               </NavDropdown.Item>
             </NavDropdown>
 
+            <NavDropdown
+              title={
+                <span className="text-white my-auto">
+                  Featured Project Experience
+                </span>
+              }
+              id="nav-dropdown"
+            >
+              <NavDropdown.Item
+                as={Link}
+                to="/embedded-systems/embedded-controls-maze"
+              >
+                Robotic Car Maze Traversal
+              </NavDropdown.Item>
+              <NavDropdown.Item
+                as={Link}
+                to="/internet-of-things/verified-clock-in"
+              >
+                Verified Clock In
+              </NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/unreal-engine/module-zero">
+                Module Zero
+              </NavDropdown.Item>
+            </NavDropdown>
+
             {/*
             <NavDropdown
               title={

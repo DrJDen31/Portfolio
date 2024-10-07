@@ -2,6 +2,7 @@ import { Accordion, Button, Col, Container, Row } from "react-bootstrap";
 
 import moogpic from "../../content/images/IMG_7301 (1).jpg";
 import { useNavigate } from "react-router-dom";
+import Tag from "../../components/Tag";
 
 function MoogPage() {
   const navigate = useNavigate();
@@ -12,11 +13,38 @@ function MoogPage() {
         <h4 style={{ color: "gray" }} className="pb-2">
           Intern, Engineering
         </h4>
-        <p>
+        <p style={{ marginTop: "0px" }}>
           Full Time: August 2023 - December 2023
           <br />
           Part Time (Remote): December 2023 - April 2024
         </p>
+        <div
+          style={{
+            display: "flex",
+            flex: "none",
+            flexDirection: "row",
+            flexWrap: "wrap",
+            marginBottom: "8px",
+            borderStyle: "solid",
+            borderWidth: "1px",
+            borderColor: "#AAAAAA",
+            borderRadius: "5px",
+            width: "fit-content",
+          }}
+        >
+          <div className="p-1">
+            <Tag text="Work" color="#80FF86" />
+          </div>
+          <div className="p-1">
+            <Tag text="Python" color="orange" />
+          </div>
+          <div className="p-1">
+            <Tag text="Bash" color="orange" />
+          </div>
+          <div className="p-1">
+            <Tag text="CODESYS" color="orange" />
+          </div>
+        </div>
         <p className="pt-2">
           My work at Moog was primarily software development, which can be
           classified into three cases:

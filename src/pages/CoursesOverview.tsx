@@ -1839,32 +1839,6 @@ function CoursesOverview() {
                     </Accordion.Item>
                     <Accordion.Item eventKey="3">
                       <Accordion.Header>
-                        [CSCI-4470] - Open Source Software
-                      </Accordion.Header>
-                      <Accordion.Body>
-                        <div>
-                          <h5>Open Source Software</h5>
-                          <p style={{ marginBottom: "4px" }}>
-                            <h6 style={{ marginBottom: "0px" }}>
-                              Course Description From RPI's Course Catalog:
-                            </h6>
-                            "Open source communities are proven development
-                            engines for creating large diverse user-focused
-                            software; however, these communities are not easily
-                            supported by traditional models of software
-                            development. Expected behaviors, tools, and
-                            licensing are uniquely adapted to the needs of an
-                            often volunteer workforce, distributed and
-                            asynchronous development, and meritocracy. In this
-                            course, students use and develop open source
-                            software, create open source repositories, and
-                            participate in open source communities."
-                          </p>
-                        </div>
-                      </Accordion.Body>
-                    </Accordion.Item>
-                    <Accordion.Item eventKey="4">
-                      <Accordion.Header>
                         [CSCI-4210] - Operating Systems
                       </Accordion.Header>
                       <Accordion.Body>
@@ -1882,6 +1856,253 @@ function CoursesOverview() {
                             device management, file systems, deadlock problems,
                             system calls, and interprocess communication.
                             Programming projects are required."
+                          </p>
+                        </div>
+                      </Accordion.Body>
+                    </Accordion.Item>
+                    <Accordion.Item eventKey="4">
+                      <Accordion.Header>
+                        [CSCI-6530] - Advanced Computer Graphics (Graduate Class
+                        for Coterm)
+                      </Accordion.Header>
+                      <Accordion.Body>
+                        <div>
+                          <h5>Advanced Computer Graphics</h5>
+                          <p style={{ marginBottom: "4px" }}>
+                            <h6 style={{ marginBottom: "0px" }}>
+                              Course Description From RPI's Course Catalog:
+                            </h6>
+                            "In this course, there will be a survey of classic
+                            papers and current research in computer graphics.
+                            Topics include: advanced ray tracing, global
+                            illumination, photon mapping, subsurface scattering,
+                            mesh generation and simplification, subdivision
+                            surfaces, volumetric modeling, procedural modeling
+                            and texturing, weathering, physical simulation,
+                            appearance models. Course activities include
+                            programming assignments, oral presentations, and a
+                            term project. This is a communication-intensive
+                            course."
+                          </p>
+                          <h6 className="mt-4">
+                            Note: This class is being taken at the graduate
+                            level for the Master's degree
+                          </h6>
+                        </div>
+                      </Accordion.Body>
+                    </Accordion.Item>
+                  </Accordion>
+                </div>
+              </Col>
+            </Row>
+          </Tab>
+          <Tab eventKey="grad" title="Graduate Year">
+            <h2 className="mb-2">Graduate Year</h2>
+            <Row>
+              <Col>
+                <div className="mb-4">
+                  <h4 className="mb-2">Fall 2025</h4>
+                  <Accordion alwaysOpen>
+                    <Accordion.Item eventKey="0">
+                      <Accordion.Header>
+                        [ECSE-6560] - Modern Communication Systems
+                      </Accordion.Header>
+                      <Accordion.Body>
+                        <div>
+                          <h5>Modern Communication Systems</h5>
+                          <p style={{ marginBottom: "4px" }}>
+                            <h6 style={{ marginBottom: "0px" }}>
+                              Course Description From RPI's Course Catalog:
+                            </h6>
+                            "A broad introduction to modern communication
+                            systems, with applications to emerging wireless
+                            communication technologies. Fundamental principles
+                            of wireless channel modeling; performance limits of
+                            communication systems; analog and digital modulation
+                            techniques; source and channel coding; multi-antenna
+                            communication systems; multi-carrier modulation;
+                            multi-user communication systems. Emerging wireless
+                            technologies such as MIMO and OFDM, with
+                            applications to cellular and wireless LAN
+                            communication standards. Complemented with
+                            computational exercises."
+                          </p>
+                        </div>
+                      </Accordion.Body>
+                    </Accordion.Item>
+                    <Accordion.Item eventKey="1">
+                      <Accordion.Header>
+                        [ECSE-6560] - Advanced Computer Systems
+                      </Accordion.Header>
+                      <Accordion.Body>
+                        <div>
+                          <h5>Advanced Computer Systems</h5>
+                          <p style={{ marginBottom: "4px" }}>
+                            <h6 style={{ marginBottom: "0px" }}>
+                              Course Description From RPI's Course Catalog:
+                            </h6>
+                            "Key design principles and techniques of modern
+                            computer hardware, including instruction-level,
+                            data-level, and thread-level parallelism in CPU and
+                            GPU, cache and memory hierarchy, DRAM and
+                            non-volatile memory technologies and solid-state
+                            drive, and heterogeneous and disaggregated computing
+                            architecture. Advanced infrastructure software
+                            design techniques and algorithms, including indexing
+                            data structure, transaction, storage model, and
+                            consistency and consensus. Course projects to gain
+                            advanced programming skills and deepen the
+                            understanding of modern computer hardware and
+                            software."
+                          </p>
+                        </div>
+                      </Accordion.Body>
+                    </Accordion.Item>
+                    <Accordion.Item eventKey="2">
+                      <Accordion.Header>
+                        [ECSE-4750] - Computer Graphics
+                      </Accordion.Header>
+                      <Accordion.Body>
+                        <div>
+                          <h5>Computer Graphics</h5>
+                          <p style={{ marginBottom: "4px" }}>
+                            <h6 style={{ marginBottom: "0px" }}>
+                              Course Description From RPI's Course Catalog:
+                            </h6>
+                            "Introduction to Interactive Computer Graphics, with
+                            an emphasis on applications programming. Objects and
+                            viewers, and the synthetic camera model. Graphics
+                            architectures, the graphics pipeline, clipping,
+                            rasterization, and programmable shaders. Input and
+                            interaction. Geometric objects, homogeneous
+                            coordinates, and transformations. Viewing, hidden
+                            surface removal, frame and depth buffers,
+                            compositing, and anti-aliasing. Shading, light and
+                            materials, texture mapping, ray tracing, and
+                            radiosity. Intellectual property concerns. Extensive
+                            programming with the OpenGL API and C++."
+                          </p>
+                        </div>
+                      </Accordion.Body>
+                    </Accordion.Item>
+                    <Accordion.Item eventKey="3">
+                      <Accordion.Header>
+                        [ECSE-6980] - Master's Project
+                      </Accordion.Header>
+                      <Accordion.Body>
+                        <div>
+                          <h5>Master's Project</h5>
+                          <p style={{ marginBottom: "4px" }}>
+                            <h6 style={{ marginBottom: "0px" }}>
+                              Course Description From RPI's Course Catalog:
+                            </h6>
+                            "Active participation in a master’s-level project,
+                            under the supervision of a faculty adviser, leading
+                            to a master’s project report. Grades S or U are
+                            assigned at the end of the semester. If recommended
+                            by the adviser, the master’s project may be accepted
+                            by the Office of Graduate Education to be archived
+                            in the library."
+                          </p>
+                        </div>
+                      </Accordion.Body>
+                    </Accordion.Item>
+                  </Accordion>
+                </div>
+              </Col>
+              <Col>
+                <div className="mb-4">
+                  <h4 className="mb-2">Spring 2026</h4>
+                  <Accordion alwaysOpen>
+                    <Accordion.Item eventKey="0">
+                      <Accordion.Header>
+                        [MATH-4800] - Numerical Computing
+                      </Accordion.Header>
+                      <Accordion.Body>
+                        <div>
+                          <h5>Numerical Computing</h5>
+                          <p style={{ marginBottom: "4px" }}>
+                            <h6 style={{ marginBottom: "0px" }}>
+                              Course Description From RPI's Course Catalog:
+                            </h6>
+                            "A survey of numerical methods for scientific and
+                            engineering problems. Topics include numerical
+                            solution of linear and nonlinear algebraic
+                            equations, interpolation and least squares
+                            approximations, numerical integration and
+                            differentiation, eigenvalue problems, and an
+                            introduction to the numerical solution of ordinary
+                            differential equations. Emphasis placed on efficient
+                            computational procedures including the use of
+                            library and student written procedures using
+                            high-level software such as MATLAB."
+                          </p>
+                        </div>
+                      </Accordion.Body>
+                    </Accordion.Item>
+                    <Accordion.Item eventKey="1">
+                      <Accordion.Header>
+                        [GSAS-4550] - Game Architecture
+                      </Accordion.Header>
+                      <Accordion.Body>
+                        <div>
+                          <h5>Game Architecture</h5>
+                          <p style={{ marginBottom: "4px" }}>
+                            <h6 style={{ marginBottom: "0px" }}>
+                              Course Description From RPI's Course Catalog:
+                            </h6>
+                            "This is a class on the composition of game engines,
+                            the substrate between hardware and scripting. Topics
+                            include entity/component systems, multithreading,
+                            event management, graphics and shader programming,
+                            rigid body dynamics, collision detection,
+                            multiplayer networking, audio, and other elements of
+                            modern game engines."
+                          </p>
+                        </div>
+                      </Accordion.Body>
+                    </Accordion.Item>
+                    <Accordion.Item eventKey="2">
+                      <Accordion.Header>
+                        [ECSE-6850] - Introduction to Deep Learning
+                      </Accordion.Header>
+                      <Accordion.Body>
+                        <div>
+                          <h5>Introduction to Deep Learning</h5>
+                          <p style={{ marginBottom: "4px" }}>
+                            <h6 style={{ marginBottom: "0px" }}>
+                              Course Description From RPI's Course Catalog:
+                            </h6>
+                            "Deep learning fundamentals and applications in
+                            artificial intelligence. Topics include machine
+                            learning foundation, linear regression and
+                            classification, deep neural networks, convolutional
+                            neural networks, recurrent neural networks,
+                            generative adversary neural networks, Bayesian
+                            neural networks, deep Boltzmann machine, deep
+                            Bayesian networks, and deep reinforcement learning."
+                          </p>
+                        </div>
+                      </Accordion.Body>
+                    </Accordion.Item>
+                    <Accordion.Item eventKey="3">
+                      <Accordion.Header>
+                        [ECSE-6980] - Master's Project
+                      </Accordion.Header>
+                      <Accordion.Body>
+                        <div>
+                          <h5>Master's Project</h5>
+                          <p style={{ marginBottom: "4px" }}>
+                            <h6 style={{ marginBottom: "0px" }}>
+                              Course Description From RPI's Course Catalog:
+                            </h6>
+                            "Active participation in a master’s-level project,
+                            under the supervision of a faculty adviser, leading
+                            to a master’s project report. Grades S or U are
+                            assigned at the end of the semester. If recommended
+                            by the adviser, the master’s project may be accepted
+                            by the Office of Graduate Education to be archived
+                            in the library."
                           </p>
                         </div>
                       </Accordion.Body>

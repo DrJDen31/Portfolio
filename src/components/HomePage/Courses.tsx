@@ -91,26 +91,44 @@ function Courses() {
           </Row>
         </Container>
       </Tab>
-      {/*
+      {
         <Tab eventKey="coterm" title="Coterm Plan">
           <Container>
             <Row>
               <Col>
-                <p>Fall Semester (Fall 2025)</p>
+                <p className="fw-bold" style={{ marginBottom: "0px" }}>
+                  Senior Spring Semester (Spring 2025)
+                </p>
                 <ul>
-                  <li></li>
+                  <li>Advanced Computer Graphics</li>
                 </ul>
               </Col>
               <Col>
-                <p>Spring Semester (Spring 2026)</p>
+                <p className="fw-bold" style={{ marginBottom: "0px" }}>
+                  Fall Semester (Fall 2025)
+                </p>
                 <ul>
-                  <li></li>
+                  <li>Modern Communication Systems</li>
+                  <li>Advanced Computer Systems</li>
+                  <li>Computer Graphics</li>
+                  <li>Master's Project</li>
+                </ul>
+              </Col>
+              <Col>
+                <p className="fw-bold" style={{ marginBottom: "0px" }}>
+                  Spring Semester (Spring 2026)
+                </p>
+                <ul>
+                  <li>Intro to Deep Learning</li>
+                  <li>Numerical Computing</li>
+                  <li>Game Architecture</li>
+                  <li>Master's Project</li>
                 </ul>
               </Col>
             </Row>
           </Container>
         </Tab>
-      */}
+      }
     </Tabs>
   );
 }

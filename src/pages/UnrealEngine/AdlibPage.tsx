@@ -48,8 +48,8 @@ function AdlibPage() {
         </div>
         <h6 className="mt-2 mb-0">Overview:</h6>
         <p>
-          Adlib is a single person parody/horror game to test out some gameplay
-          mechanics. In adlib, you are trying to survive while trapped in a
+          Adlib is a single-person parody/horror game to test out some gameplay
+          mechanics. In Adlib, you are trying to survive while trapped in a
           stadium with a monster that manifests itself as a popular rapper.
           There isn't a definite victory, rather, you go for the highest score
           possible, attempting to break your record each time. Points are scored

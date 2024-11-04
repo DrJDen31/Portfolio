@@ -54,14 +54,23 @@ function Home() {
   return (
     <Container className="pt-1 pb-4 my-auto">
       <LinkGroup />
-      <div style={{ flexDirection: "row", display: "flex", marginTop: "2" }}>
+      <div>
         <p className="mx-1">
-          Note: This site is a work in progress. My old portfolio through google
-          sites can be found here:
+          Notes:
+          <ul>
+            <li>
+              This site was not designed for mobile browsers, so for the best
+              experience, use a desktop.
+            </li>
+            <li>
+              This site is a work in progress. My old portfolio through google
+              sites can be found here:{" "}
+              <a href="https://sites.google.com/view/jadentompkins/home?authuser=0">
+                Google Sites Portfolio
+              </a>
+            </li>
+          </ul>
         </p>
-        <a href="https://sites.google.com/view/jadentompkins/home?authuser=0">
-          Google Sites Portfolio
-        </a>
       </div>
       <p className="fs-5">
         Hi! My name is Jaden Tompkins and I am a senior at Rensselaer

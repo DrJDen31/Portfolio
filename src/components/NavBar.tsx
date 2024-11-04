@@ -61,7 +61,29 @@ const NavBar = () => {
                 Module Zero
               </NavDropdown.Item>
             </NavDropdown>
-
+            <NavDropdown
+              title={<span className="text-white my-auto">Unreal Engine</span>}
+              id="basic-nav-dropdown"
+            >
+              <NavDropdown.Item as={Link} to="/unreal-engine/overview">
+                Overview
+              </NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/unreal-engine/module-zero">
+                Module Zero
+              </NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/unreal-engine/adlib">
+                Adlib
+              </NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/unreal-engine/genotype">
+                Genotype
+              </NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/unreal-engine/chinese-room">
+                Chinese Room
+              </NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/unreal-engine/npc-analysis">
+                NPC Analysis
+              </NavDropdown.Item>
+            </NavDropdown>
             {/*
             <NavDropdown
               title={
@@ -102,29 +124,6 @@ const NavBar = () => {
               </NavDropdown.Item>
               <NavDropdown.Item as={Link} to="/mobile-development/my-fellow-americans">
                 MyFellowAmericans
-              </NavDropdown.Item>
-            </NavDropdown>
-            <NavDropdown
-              title={<span className="text-white my-auto">Unreal Engine</span>}
-              id="basic-nav-dropdown"
-            >
-              <NavDropdown.Item as={Link} to="/unreal-engine/overview">
-                Overview
-              </NavDropdown.Item>
-              <NavDropdown.Item as={Link} to="/unreal-engine/npc-analysis">
-                NPC Analysis
-              </NavDropdown.Item>
-              <NavDropdown.Item as={Link} to="/unreal-engine/module-zero">
-                Module Zero
-              </NavDropdown.Item>
-              <NavDropdown.Item as={Link} to="/unreal-engine/adlib">
-                Adlib
-              </NavDropdown.Item>
-              <NavDropdown.Item as={Link} to="/unreal-engine/chinese-room">
-                Chinese Room
-              </NavDropdown.Item>
-              <NavDropdown.Item as={Link} to="/unreal-engine/genotype">
-                Genotype
               </NavDropdown.Item>
             </NavDropdown>
             <NavDropdown

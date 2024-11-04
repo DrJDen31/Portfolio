@@ -94,6 +94,8 @@ function Skills() {
                   <li>HTTP</li>
                   <li>Zigbee</li>
                   <li>TShark</li>
+                  <li>TCP</li>
+                  <li>UDP</li>
                 </ul>
               </Col>
             </Row>

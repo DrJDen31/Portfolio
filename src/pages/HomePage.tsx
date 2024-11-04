@@ -73,7 +73,8 @@ function Home() {
         for Artificial Intelligence.
       </p>
       <p className="fs-5 pb-4">
-        I am currently looking for a full time job for May 2025!
+        I am currently looking for a full time job for May 2025 or summer 2025
+        internship!
       </p>
       <p className="fs-5 fw-bold">Courses and Skills:</p>
       <Accordion defaultActiveKey={["0", "1"]} alwaysOpen>
@@ -104,8 +105,29 @@ function Home() {
         </Accordion.Item>
       </Accordion>
       <Container className="my-4">
-        <Row>
-          <h3>Featured Work Experience</h3>
+        <Row className="mt-4">
+          <h3>All Experience:</h3>
+          <Col md="auto">
+            <Button
+              variant="primary"
+              onClick={() => navigate("/work-experience/overview")}
+              className="mt-2"
+            >
+              See All Work Experience
+            </Button>
+          </Col>
+          <Col md="auto">
+            <Button
+              variant="primary"
+              onClick={() => navigate("/unreal-engine/overview")}
+              className="mt-2"
+            >
+              See All Unreal Engine Projects
+            </Button>
+          </Col>
+        </Row>
+        <Row className="mt-4">
+          <h3>Featured Work Experience:</h3>
           <Col></Col>
           <Col md="auto">
             <ExperienceCard
@@ -161,7 +183,7 @@ function Home() {
           <Col></Col>
         </Row>
         <Row className="mt-4">
-          <h3>Featured Project Experience</h3>
+          <h3>Featured Project Experience:</h3>
           <Col></Col>
           <Col md="auto">
             <ExperienceCard

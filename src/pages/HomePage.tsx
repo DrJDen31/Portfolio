@@ -84,8 +84,7 @@ function Home() {
         for Artificial Intelligence.
       </p>
       <p className="fs-5 pb-4">
-        I am currently looking for a full time job for May 2025 or summer 2025
-        internship!
+        I am currently looking for a summer 2025 internship!
       </p>
       <p className="fs-5 fw-bold">Courses and Skills:</p>
       <Accordion defaultActiveKey={["0", "1"]} alwaysOpen>

@@ -17,6 +17,7 @@ function Courses() {
                   <li>Foundations of Computer Science [FOCS]</li>
                   <li>Principles of Software (Java)</li>
                   <li>Intro to Algorithms</li>
+                  <li>Programming Languages (Haskell, Erlang, Prolog)</li>
                 </ul>
               </Col>
               <Col>
@@ -31,6 +32,9 @@ function Courses() {
                     [CANOS]
                   </li>
                   <li>Internetworking of Things [IoT]</li>
+                  <li>Computer Hardware Design (SystemVerilog)</li>
+                  <li>Microprocessor Systems (C)</li>
+                  <li>Multidisciplinary Capstone (Arduino, Explain, SPI)</li>
                 </ul>
               </Col>
             </Row>
@@ -65,27 +69,14 @@ function Courses() {
           <Row>
             <Col>
               <p className="fw-bold" style={{ marginBottom: "0px" }}>
-                This Semester (Fall 2024)
-              </p>
-              <ul>
-                <li>Computer Hardware Design</li>
-                <li>Microprocessor Systems</li>
-                <li>Programming Languages</li>
-                <li>Multidisciplinary Capstone</li>
-                <li>Professional Development - Technical Issues & Solutions</li>
-                <li>Professional Development - Leadership Competencies</li>
-              </ul>
-            </Col>
-            <Col>
-              <p className="fw-bold" style={{ marginBottom: "0px" }}>
-                Next Semester (Spring 2025)
+                This Semester (Spring 2025)
               </p>
               <ul>
                 <li>Signals & Systems</li>
                 <li>Operating Systems</li>
-                <li>Open Source Software</li>
                 <li>Intelligent Virtual Agents</li>
                 <li>Cognitive Modeling</li>
+                <li>Advanced Computer Graphics</li>
               </ul>
             </Col>
           </Row>

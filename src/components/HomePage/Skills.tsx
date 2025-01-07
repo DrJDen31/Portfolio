@@ -16,7 +16,7 @@ function Skills() {
                   <li>Lambda Calculus</li>
                   <li>Algorithm Design & Analysis</li>
                   <li>Unreal Engine AI (NPC) Tools</li>
-                  <li>Mobile App Development</li>
+                  <li>Mobile App Development (React Native)</li>
                   <li>Web Development (React)</li>
                 </ul>
               </Col>
@@ -36,6 +36,8 @@ function Skills() {
                   <li>Blueprints Visual Scripting Language</li>
                   <li>Git/GitHub</li>
                   <li>Haskell</li>
+                  <li>Erlang</li>
+                  <li>Prolog</li>
                 </ul>
               </Col>
               <Col>

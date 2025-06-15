@@ -29,13 +29,13 @@ function Bio() {
           </Col>
           <Col></Col>
         </Row>
-        <Row className="justify-content-md-center">
+        {/* <Row className="justify-content-md-center">
           <Col></Col>
           <Col md="auto" className="justify-content-center">
             <h4 className="text-black">Phone: 518-653-1540</h4>
           </Col>
           <Col></Col>
-        </Row>
+        </Row> */}
       </Container>
     </Container>
   );

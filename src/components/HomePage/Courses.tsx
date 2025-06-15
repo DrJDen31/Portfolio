@@ -18,6 +18,8 @@ function Courses() {
                   <li>Principles of Software (Java)</li>
                   <li>Intro to Algorithms</li>
                   <li>Programming Languages (Haskell, Erlang, Prolog)</li>
+                  <li>Operating Systems (C)</li>
+                  <li>Advanced Computer Graphics (C++)</li>
                 </ul>
               </Col>
               <Col>
@@ -58,27 +60,11 @@ function Courses() {
                 <ul>
                   <li>Extended Cognition (C++)</li>
                   <li>Intro to Cognitive Science</li>
+                  <li>Intelligent Virtual Agents (Python)</li>
+                  <li>Cognitive Modeling (Python - Keras/TensorFlow)</li>
                 </ul>
               </Col>
             </Row>
-          </Row>
-        </Container>
-      </Tab>
-      <Tab eventKey="prospective" title="Prospective Classes">
-        <Container>
-          <Row>
-            <Col>
-              <p className="fw-bold" style={{ marginBottom: "0px" }}>
-                This Semester (Spring 2025)
-              </p>
-              <ul>
-                <li>Signals & Systems</li>
-                <li>Operating Systems</li>
-                <li>Intelligent Virtual Agents</li>
-                <li>Cognitive Modeling</li>
-                <li>Advanced Computer Graphics</li>
-              </ul>
-            </Col>
           </Row>
         </Container>
       </Tab>
@@ -99,9 +85,12 @@ function Courses() {
                   Fall Semester (Fall 2025)
                 </p>
                 <ul>
-                  <li>Modern Communication Systems</li>
+                  <li>
+                    Advanced Materials, Metrology. & Equipment for Semiconductor
+                    Manufacturing
+                  </li>
                   <li>Advanced Computer Systems</li>
-                  <li>Computer Graphics</li>
+                  <li>Numerical Computing</li>
                   <li>Master's Project</li>
                 </ul>
               </Col>
@@ -110,9 +99,9 @@ function Courses() {
                   Spring Semester (Spring 2026)
                 </p>
                 <ul>
+                  <li>Computer Architecture Prototyping with FPGAs</li>
+                  <li>Parallel Programming</li>
                   <li>Intro to Deep Learning</li>
-                  <li>Numerical Computing</li>
-                  <li>Game Architecture</li>
                   <li>Master's Project</li>
                 </ul>
               </Col>

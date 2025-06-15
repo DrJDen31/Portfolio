@@ -54,7 +54,7 @@ function Home() {
   return (
     <Container className="pt-1 pb-4 my-auto">
       <LinkGroup />
-      <Accordion className="pb-4">
+      {/* <Accordion className="pb-4">
         <Accordion.Item eventKey="0">
           <Accordion.Header>Note:</Accordion.Header>
           <Accordion.Body>
@@ -73,18 +73,19 @@ function Home() {
             </ul>
           </Accordion.Body>
         </Accordion.Item>
-      </Accordion>
-      <p className="fs-5">
-        Hi! My name is Jaden Tompkins and I am a senior at Rensselaer
-        Polytechnic Institute in Troy, NY dual majoring in Computer & Systems
-        Engineering and Computer Science. I have past intern experience working
-        at Moog Construction, where my main task was to develop a full stack
-        Python app. I have focused on embedded systems and computer hardware
-        design when selecting my courses, and I am minoring in Cognitive Science
-        for Artificial Intelligence.
+      </Accordion> */}
+      <p className="fs-5 pt-2">
+        Hi! My name is Jaden Tompkins and I am a graduate student at Rensselaer
+        Polytechnic Institute in Troy, NY pursuing a M.S. in Computer & Systems
+        Engineering with an expected graduation of May 2026. I graduated with a
+        B.S. in Computer & Systems and a B.S. in Computer Science with a minor
+        in Cognitive Science for Artificial Intelligence in May 2025. I have
+        past intern experience as a software engineer at Moog Construction,
+        where I developed a full stack Python app, and Western Digital as a
+        firmware/embedded software engineer.
       </p>
-      <p className="fs-5 pb-4">
-        I am currently looking for a summer 2025 internship!
+      <p className="fs-5 pb-4 ">
+        I am currently looking for a full time role starting May 2026!
       </p>
       <p className="fs-5 fw-bold">Courses and Skills:</p>
       <Accordion defaultActiveKey={["0", "1"]} alwaysOpen>

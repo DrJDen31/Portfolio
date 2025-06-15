@@ -1905,27 +1905,30 @@ function CoursesOverview() {
                   <Accordion alwaysOpen>
                     <Accordion.Item eventKey="0">
                       <Accordion.Header>
-                        [ECSE-6560] - Modern Communication Systems
+                        [ECSE-6560] - Advanced Materials, Metrology. & Equipment
+                        for Semiconductor Manufacturing
                       </Accordion.Header>
                       <Accordion.Body>
                         <div>
-                          <h5>Modern Communication Systems</h5>
+                          <h5>
+                            Advanced Materials, Metrology. & Equipment for
+                            Semiconductor Manufacturing
+                          </h5>
                           <p style={{ marginBottom: "4px" }}>
                             <h6 style={{ marginBottom: "0px" }}>
-                              Course Description From RPI's Course Catalog:
+                              Course Description From Professor:
                             </h6>
-                            "A broad introduction to modern communication
-                            systems, with applications to emerging wireless
-                            communication technologies. Fundamental principles
-                            of wireless channel modeling; performance limits of
-                            communication systems; analog and digital modulation
-                            techniques; source and channel coding; multi-antenna
-                            communication systems; multi-carrier modulation;
-                            multi-user communication systems. Emerging wireless
-                            technologies such as MIMO and OFDM, with
-                            applications to cellular and wireless LAN
-                            communication standards. Complemented with
-                            computational exercises."
+                            "Semiconductor manufacturing has become the most
+                            sophisticated manufacturing process in human
+                            history, drawing on many disciplines. This pilot
+                            course, co-taught with a team of 20+ leading
+                            industry experts, will introduce, and provide deep
+                            insight into, the technological advances in
+                            Materials, Metrology, Equipment, Automation, Data
+                            Analytics & Infrastructures that enable the
+                            semiconductor manufacturing with astonishing
+                            increase in performance and functionality and
+                            reduction in energy, size and cost."
                           </p>
                         </div>
                       </Accordion.Body>
@@ -1960,27 +1963,26 @@ function CoursesOverview() {
                     </Accordion.Item>
                     <Accordion.Item eventKey="2">
                       <Accordion.Header>
-                        [ECSE-4750] - Computer Graphics
+                        [MATH-4800] - Numerical Computing
                       </Accordion.Header>
                       <Accordion.Body>
                         <div>
-                          <h5>Computer Graphics</h5>
+                          <h5>Numerical Computing</h5>
                           <p style={{ marginBottom: "4px" }}>
                             <h6 style={{ marginBottom: "0px" }}>
                               Course Description From RPI's Course Catalog:
                             </h6>
-                            "Introduction to Interactive Computer Graphics, with
-                            an emphasis on applications programming. Objects and
-                            viewers, and the synthetic camera model. Graphics
-                            architectures, the graphics pipeline, clipping,
-                            rasterization, and programmable shaders. Input and
-                            interaction. Geometric objects, homogeneous
-                            coordinates, and transformations. Viewing, hidden
-                            surface removal, frame and depth buffers,
-                            compositing, and anti-aliasing. Shading, light and
-                            materials, texture mapping, ray tracing, and
-                            radiosity. Intellectual property concerns. Extensive
-                            programming with the OpenGL API and C++."
+                            "A survey of numerical methods for scientific and
+                            engineering problems. Topics include numerical
+                            solution of linear and nonlinear algebraic
+                            equations, interpolation and least squares
+                            approximations, numerical integration and
+                            differentiation, eigenvalue problems, and an
+                            introduction to the numerical solution of ordinary
+                            differential equations. Emphasis placed on efficient
+                            computational procedures including the use of
+                            library and student written procedures using
+                            high-level software such as MATLAB."
                           </p>
                         </div>
                       </Accordion.Body>
@@ -2016,48 +2018,53 @@ function CoursesOverview() {
                   <Accordion alwaysOpen>
                     <Accordion.Item eventKey="0">
                       <Accordion.Header>
-                        [MATH-4800] - Numerical Computing
+                        [ECSE-6700] - Computer Architecture Prototyping with
+                        FPGAs
                       </Accordion.Header>
                       <Accordion.Body>
                         <div>
-                          <h5>Numerical Computing</h5>
+                          <h5>Computer Architecture Prototyping with FPGAs</h5>
                           <p style={{ marginBottom: "4px" }}>
                             <h6 style={{ marginBottom: "0px" }}>
                               Course Description From RPI's Course Catalog:
                             </h6>
-                            "A survey of numerical methods for scientific and
-                            engineering problems. Topics include numerical
-                            solution of linear and nonlinear algebraic
-                            equations, interpolation and least squares
-                            approximations, numerical integration and
-                            differentiation, eigenvalue problems, and an
-                            introduction to the numerical solution of ordinary
-                            differential equations. Emphasis placed on efficient
-                            computational procedures including the use of
-                            library and student written procedures using
-                            high-level software such as MATLAB."
+                            "An advanced design and laboratory course. Design
+                            methodologies include register transfer modules and
+                            firmware microprogrammed design. Advanced
+                            microprocessor topics. “Bit-slice” philosophy of
+                            design. LSI microprocessors as design elements in
+                            larger digital systems such as high-speed channels
+                            and special purpose computers. Detailed discussion
+                            of the structure of several computers at the chip
+                            and board level. Emphasis on high-speed ECL and
+                            Schottky circuits. Specification of custom IC
+                            digital systems. FPGA based design implementation
+                            using VHDL."
                           </p>
                         </div>
                       </Accordion.Body>
                     </Accordion.Item>
                     <Accordion.Item eventKey="1">
                       <Accordion.Header>
-                        [GSAS-4550] - Game Architecture
+                        [CSCI-4320] - Parallel Programming
                       </Accordion.Header>
                       <Accordion.Body>
                         <div>
-                          <h5>Game Architecture</h5>
+                          <h5>Parallel Programming</h5>
                           <p style={{ marginBottom: "4px" }}>
                             <h6 style={{ marginBottom: "0px" }}>
                               Course Description From RPI's Course Catalog:
                             </h6>
-                            "This is a class on the composition of game engines,
-                            the substrate between hardware and scripting. Topics
-                            include entity/component systems, multithreading,
-                            event management, graphics and shader programming,
-                            rigid body dynamics, collision detection,
-                            multiplayer networking, audio, and other elements of
-                            modern game engines."
+                            "Techniques and methods for parallel programming:
+                            models of parallel machines and programs, efficiency
+                            and complexity of parallel algorithms. Paradigms of
+                            parallel programming and corresponding extensions to
+                            sequential programming languages. Overview of
+                            parallel languages and coordination languages and
+                            models; programming on networks of workstations.
+                            Basic parallel algorithms: elementary computation,
+                            matrix multiplication, sorting; sample scientific
+                            application."
                           </p>
                         </div>
                       </Accordion.Body>

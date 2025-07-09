@@ -29,68 +29,17 @@ function CapstonePage() {
             <Tag text="In Class" color="#80FF86" />
           </div>
           <div className="p-1">
-            <Tag text="CHD" color="#80F9FF" />
+            <Tag text="Capstone" color="#80F9FF" />
           </div>
           <div className="p-1">
-            <Tag text="Assembly" color="orange" />
+            <Tag text="C++" color="orange" />
           </div>
           <div className="p-1">
-            <Tag text="SystemVerilog" color="orange" />
+            <Tag text="SPI" color="orange" />
           </div>
         </div>
-        <p>
-          Description
-          <ul>
-            <li>Ex</li>
-          </ul>
-        </p>
-        <Accordion alwaysOpen>
-          <Accordion.Item eventKey="0">
-            <Accordion.Header>High Level Logic</Accordion.Header>
-            <Accordion.Body>
-              <p></p>
-            </Accordion.Body>
-          </Accordion.Item>
-          <Accordion.Item eventKey="1">
-            <Accordion.Header>Bumper Buttons</Accordion.Header>
-            <Accordion.Body>
-              <p></p>
-            </Accordion.Body>
-          </Accordion.Item>
-          <Accordion.Item eventKey="2">
-            <Accordion.Header>Ultrasonic Sensor</Accordion.Header>
-            <Accordion.Body>
-              <p></p>
-            </Accordion.Body>
-          </Accordion.Item>
-          <Accordion.Item eventKey="3">
-            <Accordion.Header>Wheel Speed</Accordion.Header>
-            <Accordion.Body>
-              <p></p>
-            </Accordion.Body>
-          </Accordion.Item>
-        </Accordion>
+        <p>(Work in progress...)</p>
       </div>
-      <Row>
-        <Col></Col>
-        <Col md="auto">
-          {/* <img
-            src={"robotcar"}
-            alt="RobotCar"
-            width="285"
-            height="315"
-            className="mt-4"
-          ></img> */}
-        </Col>
-        <Col></Col>
-      </Row>
-      <Row>
-        <Col></Col>
-        <Col md="auto">
-          <p>Here is the car configured to traverse the maze.</p>
-        </Col>
-        <Col></Col>
-      </Row>
     </Container>
   );
 }

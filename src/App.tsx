@@ -69,7 +69,7 @@ function App() {
           element={<EmbeddedSystemsOverviewPage />}
         />
         <Route path="/embedded-systems/buckshot" element={<BuckshotPage />} />
-        <Route path="/embedded-systems/overview" element={<CapstonePage />} />
+        <Route path="/embedded-systems/capstone" element={<CapstonePage />} />
         <Route
           path="/embedded-systems/embedded-controls-maze"
           element={<EmbeddedControlsMazePage />}

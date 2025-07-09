@@ -64,16 +64,19 @@ const NavBar = () => {
                 as={Link}
                 to="/embedded-systems/embedded-controls-maze"
               >
-                Robotic Car Maze Traversal
+                EmCon: Robotic Car Maze Traversal
               </NavDropdown.Item>
               <NavDropdown.Item
                 as={Link}
                 to="/internet-of-things/verified-clock-in"
               >
-                Verified Clock In
+                IoT: Verified Clock In
               </NavDropdown.Item>
               <NavDropdown.Item as={Link} to="/unreal-engine/module-zero">
                 Module Zero
+              </NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/embedded-systems/capstone">
+                Capstone: Multiplexer Module for Bioelectrochemical Experiments
               </NavDropdown.Item>
             </NavDropdown>
             <NavDropdown

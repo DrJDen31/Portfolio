@@ -18,6 +18,7 @@ import chd from "../content/images/chd_lab9.png";
 import snow from "../content/images/sparkle.png";
 import cm from "../content/images/our_tetrachromatic.png";
 import buckshot from "../content/images/buckshot.png";
+import capstone from "../content/images/capstone.png";
 import CardImage from "../components/CardImage";
 import ExperienceCard from "../components/ExperienceCard";
 
@@ -278,6 +279,10 @@ function Home() {
                   color: "#80FF86",
                 },
                 {
+                  text: "CHD",
+                  color: "#80F9FF",
+                },
+                {
                   text: "SystemVerilog",
                   color: "orange",
                 },
@@ -295,6 +300,10 @@ function Home() {
                 {
                   text: "In Class",
                   color: "#80FF86",
+                },
+                {
+                  text: "ACG",
+                  color: "#80F9FF",
                 },
                 {
                   text: "C++",
@@ -316,6 +325,10 @@ function Home() {
                   color: "#80FF86",
                 },
                 {
+                  text: "MpS",
+                  color: "#80F9FF",
+                },
+                {
                   text: "C",
                   color: "orange",
                 },
@@ -333,6 +346,10 @@ function Home() {
                 {
                   text: "In Class",
                   color: "#80FF86",
+                },
+                {
+                  text: "CM",
+                  color: "#80F9FF",
                 },
                 {
                   text: "Python",
@@ -418,6 +435,33 @@ function Home() {
                 },
               ]}
               navigationPath="/unreal-engine/module-zero"
+            />
+          </Col>
+          <Col></Col>
+          <Col md="auto">
+            <ExperienceCard
+              imageSource={capstone}
+              title="Capstone"
+              text="Multidisciplinary Capstone: Multiplexer Module for Bioelectrochemical Experiments"
+              tags={[
+                {
+                  text: "In Class",
+                  color: "#80FF86",
+                },
+                {
+                  text: "Capstone",
+                  color: "#80F9FF",
+                },
+                {
+                  text: "C++",
+                  color: "orange",
+                },
+                {
+                  text: "SPI",
+                  color: "orange",
+                },
+              ]}
+              navigationPath="/embedded-systems/capstone"
             />
           </Col>
           <Col></Col>

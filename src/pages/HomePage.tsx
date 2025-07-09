@@ -7,9 +7,17 @@ import Bio from "../components/HomePage/Bio";
 
 import moogpic from "../content/images/IMG_7301 (1).jpg";
 import troytutors from "../content/images/tt.png";
+import wd from "../content/images/western-digital.png";
 import robotcar from "../content/images/robotcar.png";
 import iot from "../content/images/IoT.png";
 import module from "../content/images/Module.png";
+import grad from "../content/images/grad.jpg";
+import rpi from "../content/images/rensselaer-polytechnic-institute_209.png";
+import moog from "../content/images/moog.png";
+import chd from "../content/images/chd_lab9.png";
+import snow from "../content/images/sparkle.png";
+import cm from "../content/images/our_tetrachromatic.png";
+import buckshot from "../content/images/buckshot.png";
 import CardImage from "../components/CardImage";
 import ExperienceCard from "../components/ExperienceCard";
 
@@ -77,13 +85,53 @@ function Home() {
       <p className="fs-5 pt-2">
         Hi! My name is Jaden Tompkins and I am a graduate student at Rensselaer
         Polytechnic Institute in Troy, NY pursuing a M.S. in Computer & Systems
-        Engineering with an expected graduation of May 2026. I graduated with a
-        B.S. in Computer & Systems and a B.S. in Computer Science with a minor
-        in Cognitive Science for Artificial Intelligence in May 2025. I have
-        past intern experience as a software engineer at Moog Construction,
-        where I developed a full stack Python app, and Western Digital as a
-        firmware/embedded software engineer.
+        Engineering with an expected graduation of May 2026.
       </p>
+      <Row>
+        <Col></Col>
+        <Col md="auto">
+          <img src={rpi} alt="RPI Logo" width="200" height="200"></img>
+        </Col>
+        <Col></Col>
+      </Row>
+      <p className="fs-5 pt-2">
+        I graduated with a B.S. in Computer & Systems and a B.S. in Computer
+        Science with a minor in Cognitive Science for Artificial Intelligence in
+        May 2025.
+      </p>
+      <Row>
+        <Col></Col>
+        <Col md="auto">
+          <img
+            src={grad}
+            alt="Graduation Picture"
+            width="307"
+            height="250"
+          ></img>
+        </Col>
+        <Col></Col>
+      </Row>
+      <p className="fs-5 pt-2">
+        I have past intern experience as a software engineer at Moog
+        Construction, where I developed a full stack Python app, and Western
+        Digital as a firmware/embedded software engineer.
+      </p>
+      <Row>
+        <Col></Col>
+        <Col md="auto">
+          <img src={moog} alt="Moog Logo" width="290" height="290"></img>
+        </Col>
+        <Col></Col>
+        <Col md="auto">
+          <img
+            src={wd}
+            alt="Western Digital Logo"
+            width="400"
+            height="270"
+          ></img>
+        </Col>
+        <Col></Col>
+      </Row>
       <p className="fs-5 pb-4 ">
         I am currently looking for a full time role starting May 2026!
       </p>
@@ -142,6 +190,53 @@ function Home() {
           <Col></Col>
           <Col md="auto">
             <ExperienceCard
+              imageSource={wd}
+              title="Western Digital"
+              text="Summer 2025 firmware/embedded software intern at Western Digital in Rochester, Minnesota"
+              tags={[
+                {
+                  text: "Work",
+                  color: "#80FF86",
+                },
+                {
+                  text: "Python",
+                  color: "orange",
+                },
+                {
+                  text: "Go",
+                  color: "orange",
+                },
+              ]}
+              navigationPath="/work-experience/western-digital"
+            />
+          </Col>
+          <Col></Col>
+          <Col md="auto">
+            <ExperienceCard
+              imageSource={troytutors}
+              title="Troy Tutors"
+              text="Part time tutor through Troy Tutors in CS and CSE courses,
+                  such as Data Structures and CANOS"
+              tags={[
+                {
+                  text: "Work",
+                  color: "#80FF86",
+                },
+                {
+                  text: "Data Structures",
+                  color: "#80F9FF",
+                },
+                {
+                  text: "CANOS",
+                  color: "#80F9FF",
+                },
+              ]}
+              navigationPath="/work-experience/troy-tutors"
+            />
+          </Col>
+          <Col></Col>
+          <Col md="auto">
+            <ExperienceCard
               imageSource={moogpic}
               title="Moog"
               text="Fall 2023 Engineering Internship in Buffalo, NY as a part of
@@ -168,33 +263,85 @@ function Home() {
             />
           </Col>
           <Col xs></Col>
-          <Col md="auto">
-            <ExperienceCard
-              imageSource={troytutors}
-              title="Troy Tutors"
-              text="Part time tutor through Troy Tutors in CS and CSE courses,
-                  such as Data Structures and CANOS"
-              tags={[
-                {
-                  text: "Work",
-                  color: "#80FF86",
-                },
-                {
-                  text: "Data Structures",
-                  color: "#80F9FF",
-                },
-                {
-                  text: "CANOS",
-                  color: "#80F9FF",
-                },
-              ]}
-              navigationPath="/work-experience/troy-tutors"
-            />
-          </Col>
-          <Col></Col>
         </Row>
         <Row className="mt-4">
           <h3>Featured Project Experience:</h3>
+          <Col xs></Col>
+          <Col md="auto">
+            <ExperienceCard
+              imageSource={chd}
+              title="Computer Hardware Design: RISC-V Processors"
+              text="Multiple labs culminating in the simulation of RISC-V processors"
+              tags={[
+                {
+                  text: "In Class",
+                  color: "#80FF86",
+                },
+                {
+                  text: "SystemVerilog",
+                  color: "orange",
+                },
+              ]}
+              navigationPath="/computer-engineering/risc-v"
+            />
+          </Col>
+          <Col></Col>
+          <Col md="auto">
+            <ExperienceCard
+              imageSource={snow}
+              title="Advanced Computer Graphics: Realistic Snow"
+              text="Investigation into the realistic rendering and simulation of snow"
+              tags={[
+                {
+                  text: "In Class",
+                  color: "#80FF86",
+                },
+                {
+                  text: "C++",
+                  color: "orange",
+                },
+              ]}
+              navigationPath="/research/realistic-snow"
+            />
+          </Col>
+          <Col></Col>
+          <Col md="auto">
+            <ExperienceCard
+              imageSource={buckshot}
+              title="Microprocessor Systems: Buckshot Roulette"
+              text="Recreation of the game Buckshot Roulette on a microcontroller"
+              tags={[
+                {
+                  text: "In Class",
+                  color: "#80FF86",
+                },
+                {
+                  text: "C",
+                  color: "orange",
+                },
+              ]}
+              navigationPath="/embedded-systems/buckshot"
+            />
+          </Col>
+          <Col></Col>
+          <Col md="auto">
+            <ExperienceCard
+              imageSource={cm}
+              title="Cognitive Modeling: Cone Cell Modeling"
+              text="A model of the brain's interpretation from cone cell signals"
+              tags={[
+                {
+                  text: "In Class",
+                  color: "#80FF86",
+                },
+                {
+                  text: "Python",
+                  color: "orange",
+                },
+              ]}
+              navigationPath="/research/cone-cell-model"
+            />
+          </Col>
           <Col></Col>
           <Col md="auto">
             <ExperienceCard

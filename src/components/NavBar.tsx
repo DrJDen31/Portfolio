@@ -29,11 +29,14 @@ const NavBar = () => {
               <NavDropdown.Item as={Link} to="/work-experience/overview">
                 Overview
               </NavDropdown.Item>
-              <NavDropdown.Item as={Link} to="/work-experience/moog">
-                Moog
+              <NavDropdown.Item as={Link} to="/work-experience/western-digital">
+                Western Digital
               </NavDropdown.Item>
               <NavDropdown.Item as={Link} to="/work-experience/troy-tutors">
                 Troy Tutors
+              </NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/work-experience/moog">
+                Moog Construction
               </NavDropdown.Item>
             </NavDropdown>
 
@@ -45,6 +48,18 @@ const NavBar = () => {
               }
               id="nav-dropdown"
             >
+              <NavDropdown.Item as={Link} to="/computer-engineering/risc-v">
+                CHD: RISC-V
+              </NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/research/realistic-snow">
+                ACG: Realistic Snow
+              </NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/embedded-systems/buckshot">
+                MP: Buckshot Roulette
+              </NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/research/cone-cell-model">
+                CM: Cone Cell Modeling
+              </NavDropdown.Item>
               <NavDropdown.Item
                 as={Link}
                 to="/embedded-systems/embedded-controls-maze"

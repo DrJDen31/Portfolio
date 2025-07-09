@@ -2,6 +2,7 @@ import { Col, Container, Row } from "react-bootstrap";
 
 import moogpic from "../../content/images/IMG_7301 (1).jpg";
 import troytutors from "../../content/images/tt.png";
+import wd from "../../content/images/western-digital.png";
 import ExperienceCard from "../../components/ExperienceCard";
 
 function WorkExperienceOverviewPage() {
@@ -60,6 +61,29 @@ function WorkExperienceOverviewPage() {
                 },
               ]}
               navigationPath="/work-experience/troy-tutors"
+            />
+          </Col>
+          <Col></Col>
+          <Col md="auto">
+            <ExperienceCard
+              imageSource={wd}
+              title="Western Digital"
+              text="Summer 2025 firmware/embedded software intern at Western Digital in Rochester, Minnesota"
+              tags={[
+                {
+                  text: "Work",
+                  color: "#80FF86",
+                },
+                {
+                  text: "Python",
+                  color: "orange",
+                },
+                {
+                  text: "Go",
+                  color: "orange",
+                },
+              ]}
+              navigationPath="/work-experience/western-digital"
             />
           </Col>
           <Col></Col>

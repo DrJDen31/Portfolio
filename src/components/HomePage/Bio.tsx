@@ -1,6 +1,7 @@
 import { Col, Container, Row } from "react-bootstrap";
 
 import headshot from "../../content/images/IMG_9152 (1).jpg";
+import grad from "../../content/images/50401733_00301_1189_XLarge.jpg";
 
 function Bio() {
   return (
@@ -10,6 +11,10 @@ function Bio() {
           <Col></Col>
           <Col md="auto">
             <img src={headshot} alt="Headshot" width="150" height="200"></img>
+          </Col>
+          <Col></Col>
+          <Col md="auto">
+            <img src={grad} alt="Headshot" width="134" height="200"></img>
           </Col>
           <Col></Col>
         </Row>
@@ -29,13 +34,6 @@ function Bio() {
           </Col>
           <Col></Col>
         </Row>
-        {/* <Row className="justify-content-md-center">
-          <Col></Col>
-          <Col md="auto" className="justify-content-center">
-            <h4 className="text-black">Phone: 518-653-1540</h4>
-          </Col>
-          <Col></Col>
-        </Row> */}
       </Container>
     </Container>
   );

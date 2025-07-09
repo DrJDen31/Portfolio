@@ -7,7 +7,10 @@ import CoursesOverview from "./pages/CoursesOverview";
 import WorkExperienceOverview from "./pages/WorkExperience/WorkExperienceOverviewPage";
 import MoogPage from "./pages/WorkExperience/MoogPage";
 import TroyTutorsPage from "./pages/WorkExperience/TroyTutorsPage";
+import WDPage from "./pages/WorkExperience/WD";
 
+import BuckshotPage from "./pages/EmbeddedSystems/Buckshot";
+import CapstonePage from "./pages/EmbeddedSystems/Capstone";
 import EmbeddedSystemsOverviewPage from "./pages/EmbeddedSystems/EmbeddedSystemsOverviewPage";
 import EmbeddedControlsMazePage from "./pages/EmbeddedSystems/EmbeddedControlsMazePage";
 import IEDHandyHelperPage from "./pages/EmbeddedSystems/IEDHandyHelperPage";
@@ -29,6 +32,11 @@ import VerifiedClockInPage from "./pages/InternetOfThings/VerifiedClockInPage";
 
 import CircuitDesignOverviewPage from "./pages/CircuitDesign/CircuitDesignOverviewPage";
 import HeartbeatSensorPage from "./pages/CircuitDesign/HeartbeatSensorPage";
+
+import CHDPage from "./pages/ComputerEngineering/CHD";
+
+import ACGPage from "./pages/Research/ACG";
+import CMPage from "./pages/Research/CM";
 
 import NavBar from "./components/NavBar";
 
@@ -54,11 +62,14 @@ function App() {
           path="/work-experience/troy-tutors"
           element={<TroyTutorsPage />}
         />
+        <Route path="/work-experience/western-digital" element={<WDPage />} />
 
         <Route
           path="/embedded-systems/overview"
           element={<EmbeddedSystemsOverviewPage />}
         />
+        <Route path="/embedded-systems/buckshot" element={<BuckshotPage />} />
+        <Route path="/embedded-systems/overview" element={<CapstonePage />} />
         <Route
           path="/embedded-systems/embedded-controls-maze"
           element={<EmbeddedControlsMazePage />}
@@ -123,6 +134,10 @@ function App() {
           path="/circuit-design/heartbeat-sensor"
           element={<HeartbeatSensorPage />}
         />
+        <Route path="/computer-engineering/risc-v" element={<CHDPage />} />
+
+        <Route path="/research/realistic-snow" element={<ACGPage />} />
+        <Route path="/research/cone-cell-model" element={<CMPage />} />
       </Routes>
     </>
   );

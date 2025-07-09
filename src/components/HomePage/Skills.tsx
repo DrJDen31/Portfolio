@@ -18,6 +18,8 @@ function Skills() {
                   <li>Unreal Engine AI (NPC) Tools</li>
                   <li>Mobile App Development (React Native)</li>
                   <li>Web Development (React)</li>
+                  <li>Docker</li>
+                  <li>Grafana</li>
                 </ul>
               </Col>
               <Col>
@@ -27,6 +29,7 @@ function Skills() {
                 <ul>
                   <li>Python</li>
                   <li>C/C++</li>
+                  <li>Go</li>
                   <li>Java</li>
                   <li>Bash</li>
                   <li>JavaScript/TypeScript (React/React Native)</li>
@@ -35,6 +38,7 @@ function Skills() {
                   <li>Assembly</li>
                   <li>Blueprints Visual Scripting Language</li>
                   <li>Git/GitHub</li>
+                  <li>MySQL</li>
                   <li>Haskell</li>
                   <li>Erlang</li>
                   <li>Prolog</li>

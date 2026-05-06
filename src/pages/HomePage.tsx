@@ -133,9 +133,6 @@ function Home() {
         </Col>
         <Col></Col>
       </Row>
-      <p className="fs-5 pb-4 ">
-        I am currently looking for a full time role starting May 2026!
-      </p>
       <p className="fs-5 fw-bold">Courses and Skills:</p>
       <Accordion defaultActiveKey={["0", "1"]} alwaysOpen>
         <Accordion.Item eventKey="0">

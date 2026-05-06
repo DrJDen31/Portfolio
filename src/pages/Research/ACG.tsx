@@ -1,6 +1,7 @@
 import { Accordion, Col, Container, Row } from "react-bootstrap";
 
 import Tag from "../../components/Tag";
+import RelatedProjects from "../../components/RelatedProjects";
 import acg from "../../content/images/ACG_Snow_Final_Project_Report (1).pdf";
 import snow from "../../content/images/sparkle.png";
 
@@ -37,19 +38,30 @@ function ACGPage() {
             <Tag text="C++" color="orange" />
           </div>
         </div>
+        <h6 className="mt-3 mb-1">Problem</h6>
         <p>
-          For the final project of Advanced Computer Graphics my partner and I
-          decided to look into the rendering and simulation of realistic snow
-          (or at least a few key visual and physical effects). This is done in
-          C++ and OpenGL, with most of the rendering done through Volumetric
-          Bidirection Path Tracing and using MPM for the physical simulation.
+          Investigate how realistic snow can be rendered and simulated by
+          combining visual and physical effects instead of relying on a simple
+          surface shader.
+        </p>
+        <h6 className="mt-3 mb-1">Implementation</h6>
+        <p>
+          My partner and I built the project in C++ and OpenGL. The rendering
+          work focused on volumetric bidirectional path tracing, while the
+          simulation work used MPM to model physical snow behavior.
+        </p>
+        <h6 className="mt-3 mb-1">Result</h6>
+        <p>
+          The final report captures the research path, implementation tradeoffs,
+          and the parts of snow rendering that were most technically important
+          for the scope of the class project.
         </p>
       </div>
       <Row>
         <Col></Col>
         <Col md="auto">
           <a href={acg} target="_blank" rel="noopener noreferrer">
-            Final Report
+            Final Report PDF
           </a>
         </Col>
         <Col></Col>
@@ -67,6 +79,7 @@ function ACGPage() {
         </Col>
         <Col></Col>
       </Row>
+      <RelatedProjects currentSlug="realistic-snow" />
     </Container>
   );
 }

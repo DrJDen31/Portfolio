@@ -3,6 +3,9 @@ import { Routes, Route } from "react-router-dom";
 import Home from "./pages/HomePage";
 import ExperienceOverview from "./pages/ExperienceOverviewPage";
 import CoursesOverview from "./pages/CoursesOverview";
+import ProjectsPage from "./pages/ProjectsPage";
+import CollectionsPage from "./pages/CollectionsPage";
+import AboutPage from "./pages/AboutPage";
 
 import WorkExperienceOverview from "./pages/WorkExperience/WorkExperienceOverviewPage";
 import MoogPage from "./pages/WorkExperience/MoogPage";
@@ -39,6 +42,7 @@ import ACGPage from "./pages/Research/ACG";
 import CMPage from "./pages/Research/CM";
 
 import NavBar from "./components/NavBar";
+import ScrollToTop from "./components/ScrollToTop";
 
 import "./App.css";
 import ChineseRoomPage from "./pages/UnrealEngine/ChineseRoomPage";
@@ -47,9 +51,13 @@ import GenotypePage from "./pages/UnrealEngine/GenotypePage";
 function App() {
   return (
     <>
+      <ScrollToTop />
       <NavBar />
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/projects" element={<ProjectsPage />} />
+        <Route path="/collections" element={<CollectionsPage />} />
+        <Route path="/about" element={<AboutPage />} />
         <Route path="/experience-overview" element={<ExperienceOverview />} />
         <Route path="/courses-overview" element={<CoursesOverview />} />
 

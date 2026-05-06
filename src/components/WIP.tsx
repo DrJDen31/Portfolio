@@ -1,4 +1,4 @@
-import { Col, Container, Row, Button } from "react-bootstrap";
+import { Button, Col, Container, Row } from "react-bootstrap";
 import { useNavigate } from "react-router-dom";
 
 function WIP() {
@@ -8,7 +8,7 @@ function WIP() {
       <Row className="pt-4">
         <Col></Col>
         <Col md="auto">
-          <h3>Sorry!</h3>
+          <h3>Lab note queued</h3>
         </Col>
         <Col></Col>
       </Row>
@@ -16,7 +16,8 @@ function WIP() {
         <Col></Col>
         <Col md="auto" className="pt-2">
           <p>
-            This page is currently under construction. Please check again later!
+            This project is being kept as an archive candidate until there is
+            enough useful context to turn it into a proper technical note.
           </p>
         </Col>
         <Col></Col>
@@ -24,11 +25,8 @@ function WIP() {
       <Row>
         <Col></Col>
         <Col md="auto" className="pt-2">
-          <Button 
-            variant="primary"
-            onClick={() => navigate("/")}
-          >
-            Return Home
+          <Button variant="primary" onClick={() => navigate("/projects")}>
+            View Project Archive
           </Button>
         </Col>
         <Col></Col>
@@ -36,4 +34,5 @@ function WIP() {
     </Container>
   );
 }
+
 export default WIP;

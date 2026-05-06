@@ -1,13 +1,13 @@
-import { useNavigate } from "react-router-dom";
-import WIP from "../../components/WIP";
+import CategoryOverviewPage from "../CategoryOverviewPage";
 
 function MobileDevelopmentOverviewPage() {
-  const navigate = useNavigate();
-
   return (
-    <div>
-      <WIP />
-    </div>
+    <CategoryOverviewPage
+      category="Mobile & Web"
+      eyebrow="Mobile & Web"
+      title="Mobile, web, and app experiments"
+      description="A reserved collection for React, React Native, app prototypes, and future released product work."
+    />
   );
 }
 

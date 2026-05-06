@@ -1,41 +1,30 @@
-import { useNavigate } from "react-router-dom";
-import WIP from "../components/WIP";
-import { useState } from "react";
-import { ToggleButton } from "react-bootstrap";
+import ProjectGrid from "../components/ProjectGrid";
+import SectionHeader from "../components/SectionHeader";
+import { projectCategories, projects } from "../content/projects";
 
 function ExperienceOverview() {
-  const navigate = useNavigate();
-
-  const [activeTags, setActiveTags] = useState([]);
-  const allTags = [
-    "work",
-    "project",
-    "rpi",
-    "software",
-    "hardware",
-    "embedded",
-    "iot",
-    "unreal_engine",
-    "app_development",
-    "mobile",
-    "web",
-    "c",
-    "c++",
-    "python",
-    "typescript",
-  ];
-
-  //Cards for all experiences, sorted by topic
-  //Cards have a thumbnail, an title, a short description, are links to the pages, and have associated tags
-  //Have additional controls to filter experiences by tags
-
   return (
-    <div>
-      <WIP />
-      {/*allTags.map((tag) => (
-        <ToggleButton></ToggleButton>
-      ))*/}
-    </div>
+    <main className="site-shell page-shell">
+      <SectionHeader
+        eyebrow="Project Archive"
+        title="Projects, lab notes, and work experience"
+        description="Browse the full set of public writeups by the kind of engineering experience each project demonstrates."
+      />
+      <div className="project-archive-stack">
+        {projectCategories
+          .map((category) => ({
+            category,
+            projects: projects.filter((project) => project.category === category),
+          }))
+          .filter((group) => group.projects.length > 0)
+          .map((group) => (
+            <section key={group.category} className="archive-section">
+              <SectionHeader title={group.category} />
+              <ProjectGrid projects={group.projects} compact />
+            </section>
+          ))}
+      </div>
+    </main>
   );
 }
 

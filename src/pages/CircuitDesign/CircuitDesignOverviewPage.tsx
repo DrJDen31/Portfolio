@@ -1,13 +1,13 @@
-import { useNavigate } from "react-router-dom";
-import WIP from "../../components/WIP";
+import CategoryOverviewPage from "../CategoryOverviewPage";
 
 function CircuitDesignOverviewPage() {
-  const navigate = useNavigate();
-
   return (
-    <div>
-      <WIP />
-    </div>
+    <CategoryOverviewPage
+      category="Embedded & Systems"
+      eyebrow="Circuit Design"
+      title="Circuit, hardware, and systems coursework"
+      description="Hardware-adjacent coursework and projects grouped with embedded systems until more circuit-specific writeups are added."
+    />
   );
 }
 

@@ -1,6 +1,7 @@
 import { Accordion, Col, Container, Row } from "react-bootstrap";
 
 import Tag from "../../components/Tag";
+import RelatedProjects from "../../components/RelatedProjects";
 import cm from "../../content/images/Cognitive_Modeling_Final_Report.pdf";
 import dist from "../../content/images/our_tetrachromatic.png";
 import flower from "../../content/images/flower_25.png";
@@ -40,20 +41,29 @@ function CMPage() {
             <Tag text="Keras/Tensorflow" color="orange" />
           </div>
         </div>
+        <h6 className="mt-3 mb-1">Problem</h6>
         <p>
-          For the final project of Cognitive Modeling, we were asked to utilize
-          the skills we acquired to model something of our choice. My partner
-          and I decided to train a model to act as the brain interpreting
-          information from cone cells. This was implemented in Python using
-          Keras with Tensorflow as the underlying framework. Below is the full
-          final report.
+          Model how cone cell signals could be interpreted into a color
+          perception result, using the course project as a bridge between
+          cognitive science and machine learning.
+        </p>
+        <h6 className="mt-3 mb-1">Implementation</h6>
+        <p>
+          My partner and I trained a Python model with Keras and TensorFlow to
+          approximate the brain's interpretation of cone-cell inputs.
+        </p>
+        <h6 className="mt-3 mb-1">Result</h6>
+        <p>
+          The report documents the modeling choices, visualizations, and limits
+          of the approach, making the page useful as a compact research case
+          study rather than only a PDF link.
         </p>
       </div>
       <Row>
         <Col></Col>
         <Col md="auto">
           <a href={cm} target="_blank" rel="noopener noreferrer">
-            Final Report
+            Final Report PDF
           </a>
         </Col>
         <Col></Col>
@@ -84,6 +94,7 @@ function CMPage() {
         </Col>
         <Col></Col>
       </Row>
+      <RelatedProjects currentSlug="cone-cell-model" />
     </Container>
   );
 }

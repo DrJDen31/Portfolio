@@ -1,6 +1,7 @@
 import { Accordion, Col, Container, Row } from "react-bootstrap";
 
 import Tag from "../../components/Tag";
+import RelatedProjects from "../../components/RelatedProjects";
 import br from "../../content/images/Microprocessor_Systems_Final_Report (1).pdf";
 import gameplay from "../../content/images/buckshot.png";
 
@@ -37,19 +38,30 @@ function BuckshotPage() {
             <Tag text="C++" color="orange" />
           </div>
         </div>
+        <h6 className="mt-3 mb-1">Problem</h6>
         <p>
-          For the final project of Microprocessor Systems, my partner and I
-          decided to recreate a simplified version of the game Buckshot Roulette
-          on a microcontroller. Two microcontrollers were required for the
-          multiplayer game, communicating through UART, with one acting as host
-          and the other as client. Below is the full final report.
+          Recreate the turn-based structure of Buckshot Roulette on constrained
+          embedded hardware while supporting two-player interaction.
+        </p>
+        <h6 className="mt-3 mb-1">Implementation</h6>
+        <p>
+          My partner and I used two microcontrollers, with one acting as host
+          and the other as client. The devices communicated through UART while
+          the game logic coordinated player state, item behavior, and display
+          updates.
+        </p>
+        <h6 className="mt-3 mb-1">Result</h6>
+        <p>
+          The project became a compact embedded systems case study around
+          protocol design, hardware constraints, and translating a desktop game
+          loop into firmware.
         </p>
       </div>
       <Row>
         <Col></Col>
         <Col md="auto">
           <a href={br} target="_blank" rel="noopener noreferrer">
-            Final Report
+            Final Report PDF
           </a>
         </Col>
         <Col></Col>
@@ -67,6 +79,7 @@ function BuckshotPage() {
         </Col>
         <Col></Col>
       </Row>
+      <RelatedProjects currentSlug="buckshot" />
     </Container>
   );
 }

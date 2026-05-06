@@ -100,8 +100,8 @@ function Courses() {
                 </p>
                 <ul>
                   <li>Computer Architecture Prototyping with FPGAs</li>
-                  <li>Parallel Programming</li>
-                  <li>Intro to Deep Learning</li>
+                  <li>Network Programming</li>
+                  <li>Advanced VLSI Design</li>
                   <li>Master's Project</li>
                 </ul>
               </Col>

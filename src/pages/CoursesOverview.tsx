@@ -2046,48 +2046,48 @@ function CoursesOverview() {
                     </Accordion.Item>
                     <Accordion.Item eventKey="1">
                       <Accordion.Header>
-                        [CSCI-4320] - Parallel Programming
+                        [CSCI-4220] - Network Programming
                       </Accordion.Header>
                       <Accordion.Body>
                         <div>
-                          <h5>Parallel Programming</h5>
+                          <h5>Network Programming</h5>
                           <p style={{ marginBottom: "4px" }}>
                             <h6 style={{ marginBottom: "0px" }}>
                               Course Description From RPI's Course Catalog:
                             </h6>
-                            "Techniques and methods for parallel programming:
-                            models of parallel machines and programs, efficiency
-                            and complexity of parallel algorithms. Paradigms of
-                            parallel programming and corresponding extensions to
-                            sequential programming languages. Overview of
-                            parallel languages and coordination languages and
-                            models; programming on networks of workstations.
-                            Basic parallel algorithms: elementary computation,
-                            matrix multiplication, sorting; sample scientific
-                            application."
+                            "Programming with an overview of the principles of
+                            computer networks, including a detailed look at the
+                            OSI reference model and various popular network
+                            protocol suites. Concentration on Unix interprocess
+                            communication (IPC), network programming using TCP
+                            and UDP, as well as client-side and mobile
+                            programming. Programming projects are required."
                           </p>
                         </div>
                       </Accordion.Body>
                     </Accordion.Item>
                     <Accordion.Item eventKey="2">
                       <Accordion.Header>
-                        [ECSE-6850] - Introduction to Deep Learning
+                        [ECSE-6680] - Advanced VLSI Design
                       </Accordion.Header>
                       <Accordion.Body>
                         <div>
-                          <h5>Introduction to Deep Learning</h5>
+                          <h5>Advanced VLSI Design</h5>
                           <p style={{ marginBottom: "4px" }}>
                             <h6 style={{ marginBottom: "0px" }}>
                               Course Description From RPI's Course Catalog:
                             </h6>
-                            "Deep learning fundamentals and applications in
-                            artificial intelligence. Topics include machine
-                            learning foundation, linear regression and
-                            classification, deep neural networks, convolutional
-                            neural networks, recurrent neural networks,
-                            generative adversary neural networks, Bayesian
-                            neural networks, deep Boltzmann machine, deep
-                            Bayesian networks, and deep reinforcement learning."
+                            "Introduction to VLSI architecture design approaches
+                            and methodologies for digital signal processing
+                            systems, digital memory circuits and architectures,
+                            and computer VLSI arithmetic. Topics include:
+                            pipelining, parallel processing, timing and
+                            clocking, systolic architectures, digital filter
+                            architectures, Viterbi decoder architectures, SRAM,
+                            DRAM, flash memory, high-speed adder and multiplier
+                            architectures. Laboratory experiments involve the
+                            use of commercial EDA tools with hardware
+                            description language (HDL)."
                           </p>
                         </div>
                       </Accordion.Body>

@@ -2,6 +2,7 @@ import { useNavigate } from "react-router-dom";
 import WIP from "../../components/WIP";
 import { Button, Col, Container, Row } from "react-bootstrap";
 import Tag from "../../components/Tag";
+import RelatedProjects from "../../components/RelatedProjects";
 
 function ModuleZeroPage() {
   const navigate = useNavigate();
@@ -95,8 +96,8 @@ function ModuleZeroPage() {
           abilities without having to focus as much on replication.
         </p>
         <p>
-          While this page is now outdated, information about the past
-          implementation without GMC can be found{" "}
+          Earlier implementation notes from the pre-GMC version are preserved
+          here as a record of the systems design path:{" "}
           <a href="https://sites.google.com/view/jadentompkins/module-systems?authuser=0">
             here.
           </a>
@@ -126,8 +127,9 @@ function ModuleZeroPage() {
           <Col></Col>
         </Row>
         <p>
-          I will be updating this page and providing further demonstrations as
-          more progress is made with GMC.
+          The next useful milestone for this project is a refreshed systems
+          demonstration that focuses on the GMC-based movement and ability
+          architecture.
         </p>
       </div>
       <Row>
@@ -143,6 +145,7 @@ function ModuleZeroPage() {
         </Col>
         <Col></Col>
       </Row>
+      <RelatedProjects currentSlug="module-zero" />
     </Container>
   );
 }

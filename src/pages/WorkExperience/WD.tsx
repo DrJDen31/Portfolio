@@ -14,7 +14,7 @@ function WDPage() {
         <h4 style={{ color: "gray" }} className="pb-2">
           Firmware/Embedded Software Engineer
         </h4>
-        <p style={{ marginTop: "0px" }}>Full Time: May 2025 - August 2025</p>
+        <p style={{ marginTop: "0px" }}>Internship: May 2025 - August 2025</p>
         <div
           style={{
             display: "flex",
@@ -40,15 +40,14 @@ function WDPage() {
           </div>
         </div>
         <p className="pt-2">
-          I am currently working at Western Digital in Rochester, Minnesota as a
-          firmware/embedded software engineer on the Out-of-Box team. This team
-          acts as the final say, gatekeeping code before it enters the official
-          codebase to ensure the changes are desireable and correct. My role on
-          the team involves improving upon and testing various tools the team
-          (and others) use. These tools might analyze trends in the codebase
-          over time to paint a picture of longterm behavior and health, or might
-          be useful to analyze code itself. The main project I'm working on
-          involves improving a tool written in Go that does the former.
+          I worked at Western Digital in Rochester, Minnesota as a
+          firmware/embedded software engineering intern on the Out-of-Box team.
+          This team acts as a final review point before code enters the official
+          codebase to help ensure changes are desirable and correct. My role
+          involved improving and testing tools used to analyze long-term
+          codebase behavior, repository health, and supporting engineering
+          workflows. The main project involved improving a Go tool that gathers
+          and reports repository trend data.
         </p>
       </div>
       <Accordion alwaysOpen>

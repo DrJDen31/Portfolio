@@ -1,13 +1,13 @@
-import { useNavigate } from "react-router-dom";
-import WIP from "../../components/WIP";
+import CategoryOverviewPage from "../CategoryOverviewPage";
 
 function EmbeddedSystemsOverviewPage() {
-  const navigate = useNavigate();
-
   return (
-    <div>
-      <WIP />
-    </div>
+    <CategoryOverviewPage
+      category="Embedded & Systems"
+      eyebrow="Embedded & Hardware"
+      title="Embedded systems, architecture, and hardware-facing projects"
+      description="Firmware, microcontrollers, RISC-V hardware design, IoT, capstone hardware integration, and systems coursework."
+    />
   );
 }
 
